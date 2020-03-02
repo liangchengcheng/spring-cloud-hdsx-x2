@@ -1,0 +1,65 @@
+server:
+  port: 30004
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://127.0.0.1:30000/eureka/
+feign:
+  hystrix:
+    enabled: true
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+# swagger2
+swagger2.package: com.hdsx.appservice.restful
+
+spring:
+  application:
+    name: app-service-restful
+  redis:
+    database: 0
+    host: 127.0.0.1
+    password:
+    timeout: 0
+    port: 6379
+    namespace: DRINKWATER
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+info: #定义各种额外的详情给服务端显示
+  app:
+    name: "@project.name@" #从pom.xml中获取
+    description: "@project.description@"
+    version: "@project.version@"
+    spring-boot-version: "@project.parent.version@"
+debug: true
+
+drinkwater:
+  imagePath: E:\nginx-1.9.5\webapp\appadmin\image\
+  filePath: E:\nginx-1.9.5\webapp\appadmin\file\
+  videoPath: E:\nginx-1.9.5\webapp\appadmin\video\
+  vuePath: E:\nginx-1.9.5\webapp\
+
+ribbon:
+  ReadTimeout: 180000
+  ConnectTimeout: 120000

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-restful-gufei" />
+        <module name="app-service-user-gufei-api" />
+        <module name="app-service-product-api" />
+        <module name="app-service-sanlin-api (1)" />
+        <module name="app-service-user" />
+        <module name="app-service-product" />
+        <module name="app-service-user-sanlin" />
+        <module name="app-service-eureka" />
+        <module name="app-service-user-gufei" />
+        <module name="app-service-user-api" />
+        <module name="app-service-user-sanlin-api" />
+        <module name="app-service-order" />
+        <module name="app-service-monitor" />
+        <module name="app-service-common" />
+        <module name="app-service-order-api" />
+        <module name="app-service-admin-restful" />
+        <module name="app-service-outlet-api (1)" />
+        <module name="app-common-new" />
+        <module name="app-restful-sanlin" />
+        <module name="app-service-restful" />
+        <module name="app-service-getway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-common" target="1.8" />
+      <module name="app-common-gs" target="1.8" />
+      <module name="app-common-gufei" target="1.8" />
+      <module name="app-common-new" target="1.8" />
+      <module name="app-common-wx" target="1.8" />
+      <module name="app-restful-gufei" target="1.8" />
+      <module name="app-restful-sanlin" target="1.8" />
+      <module name="app-service-admin-data-api" target="1.8" />
+      <module name="app-service-admin-jh" target="1.8" />
+      <module name="app-service-admin-jk" target="1.8" />
+      <module name="app-service-admin-restful" target="1.8" />
+      <module name="app-service-admin2.0-server" target="1.8" />
+      <module name="app-service-api" target="1.8" />
+      <module name="app-service-cjjjd-data" target="1.8" />
+      <module name="app-service-cjjjd-data-api" target="1.8" />
+      <module name="app-service-cjjjd-data-api (1)" target="1.8" />
+      <module name="app-service-cjjjd-restful" target="1.8" />
+      <module name="app-service-cjjjd-user" target="1.8" />
+      <module name="app-service-cjjjd-user-api" target="1.8" />
+      <module name="app-service-cjjjd-user-api (1)" target="1.5" />
+      <module name="app-service-common" target="1.8" />
+      <module name="app-service-commons-data" target="1.8" />
+      <module name="app-service-commons-data-api" target="1.8" />
+      <module name="app-service-commons-restful" target="1.8" />
+      <module name="app-service-consul" target="1.8" />
+      <module name="app-service-consul-cunsumer" target="1.8" />
+      <module name="app-service-controller" target="1.8" />
+      <module name="app-service-eureka" target="1.8" />
+      <module name="app-service-eureka-jiqun0" target="1.8" />
+      <module name="app-service-eureka-jiqun1" target="1.8" />
+      <module name="app-service-eureka-jiqun2" target="1.8" />
+      <module name="app-service-eureka2.0-client-gufei" target="1.8" />
+      <module name="app-service-getway" target="1.8" />
+      <module name="app-service-gufei" target="1.8" />
+      <module name="app-service-gufei-api" target="1.8" />
+      <module name="app-service-gufei-restful" target="1.8" />
+      <module name="app-service-gufei-user" target="1.8" />
+      <module name="app-service-gufei-user-api" target="1.8" />
+      <module name="app-service-huanbohai-data" target="1.8" />
+      <module name="app-service-huanbohai-data-api" target="1.8" />
+      <module name="app-service-huanbohai-restful" target="1.8" />
+      <module name="app-service-huanbohai-user" target="1.8" />
+      <module name="app-service-huanbohai-user-api" target="1.8" />
+      <module name="app-service-monitor" target="1.8" />
+      <module name="app-service-oldwater-data" target="1.8" />
+      <module name="app-service-oldwater-data-api" target="1.8" />
+      <module name="app-service-oldwater-inspector" target="1.8" />
+      <module name="app-service-oldwater-pczz" target="1.8" />
+      <module name="app-service-oldwater-pczz-api" target="1.8" />
+      <module name="app-service-oldwater-rest" target="1.8" />
+      <module name="app-service-oldwater-userinfo" target="1.8" />
+      <module name="app-service-oldwater-userinfo-api" target="1.8" />
+      <module name="app-service-order" target="1.8" />
+      <module name="app-service-order-api" target="1.8" />
+      <module name="app-service-product" target="1.8" />
+      <module name="app-service-product-api" target="1.8" />
+      <module name="app-service-provider" target="1.8" />
+      <module name="app-service-provider-api" target="1.8" />
+      <module name="app-service-pwk-anhui-data" target="1.8" />
+      <module name="app-service-pwk-anhui-data-api" target="1.8" />
+      <module name="app-service-pwk-anhui-restful" target="1.8" />
+      <module name="app-service-pwk-anhui-user" target="1.8" />
+      <module name="app-service-pwk-anhui-user-api" target="1.8" />
+      <module name="app-service-pwk-gs-data" target="1.8" />
+      <module name="app-service-pwk-gs-data-api" target="1.8" />
+      <module name="app-service-pwk-gs-restful" target="1.8" />
+      <module name="app-service-pwk-gs-user" target="1.8" />
+      <module name="app-service-pwk-gs-user-api" target="1.8" />
+      <module name="app-service-restful" target="1.8" />
+      <module name="app-service-sanlin" target="1.8" />
+      <module name="app-service-sanlin-api" target="1.8" />
+      <module name="app-service-sanlin-api (1)" target="1.8" />
+      <module name="app-service-sanlin-restful" target="1.8" />
+      <module name="app-service-sanlin-user" target="1.8" />
+      <module name="app-service-sanlin-user-api" target="1.8" />
+      <module name="app-service-turbine-cjjjd" target="1.6" />
+      <module name="app-service-turbine-outlet" target="1.6" />
+      <module name="app-service-turbine-water" target="1.6" />
+      <module name="app-service-user" target="1.8" />
+      <module name="app-service-user-api" target="1.8" />
+      <module name="app-service-user-gufei" target="1.8" />
+      <module name="app-service-user-gufei-api" target="1.8" />
+      <module name="app-service-user-sanlin" target="1.8" />
+      <module name="app-service-user-sanlin-api" target="1.8" />
+      <module name="app-service-water" target="1.5" />
+      <module name="app-service-water-data" target="1.8" />
+      <module name="app-service-water-data-api" target="1.6" />
+      <module name="app-service-water-dcyh" target="1.8" />
+      <module name="app-service-water-dcyh-api" target="1.6" />
+      <module name="app-service-water-dfyh" target="1.8" />
+      <module name="app-service-water-dfyh-api" target="1.6" />
+      <module name="app-service-water-restful" target="1.8" />
+      <module name="app-service-water-user" target="1.8" />
+      <module name="app-service-water-user-api" target="1.6" />
+      <module name="app-service-wx" target="1.8" />
+      <module name="app-service-wx-api" target="1.8" />
+      <module name="app-service-wx-restful" target="1.8" />
+      <module name="app-service-yellowsea-data" target="1.8" />
+      <module name="app-service-yellowsea-data-api" target="1.8" />
+      <module name="app-service-yellowsea-restful" target="1.8" />
+      <module name="app-service-yellowsea-user" target="1.8" />
+      <module name="app-service-yellowsea-user-api" target="1.8" />
+      <module name="app-service-zipkin" target="1.6" />
+      <module name="spring-cloud-hdsx-x2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-common-gufei" options="-parameters" />
+      <module name="app-common-new" options="-parameters" />
+      <module name="app-common-wx" options="-parameters" />
+      <module name="app-restful-gufei" options="-parameters" />
+      <module name="app-restful-sanlin" options="-parameters" />
+      <module name="app-service-admin-data-api" options="-parameters" />
+      <module name="app-service-admin-jh" options="-parameters" />
+      <module name="app-service-admin-jk" options="-parameters" />
+      <module name="app-service-admin-restful" options="-parameters" />
+      <module name="app-service-admin2.0-server" options="-parameters" />
+      <module name="app-service-common" options="-parameters" />
+      <module name="app-service-commons-data" options="-parameters" />
+      <module name="app-service-commons-data-api" options="-parameters" />
+      <module name="app-service-commons-restful" options="-parameters" />
+      <module name="app-service-eureka" options="-parameters" />
+      <module name="app-service-eureka-jiqun1" options="-parameters" />
+      <module name="app-service-eureka-jiqun2" options="-parameters" />
+      <module name="app-service-eureka2.0-client-gufei" options="-parameters" />
+      <module name="app-service-getway" options="-parameters" />
+      <module name="app-service-gufei" options="-parameters" />
+      <module name="app-service-gufei-api" options="-parameters" />
+      <module name="app-service-gufei-restful" options="-parameters" />
+      <module name="app-service-gufei-user" options="-parameters" />
+      <module name="app-service-gufei-user-api" options="-parameters" />
+      <module name="app-service-monitor" options="-parameters" />
+      <module name="app-service-order" options="-parameters" />
+      <module name="app-service-order-api" options="-parameters" />
+      <module name="app-service-product" options="-parameters" />
+      <module name="app-service-product-api" options="-parameters" />
+      <module name="app-service-restful" options="-parameters" />
+      <module name="app-service-sanlin" options="-parameters" />
+      <module name="app-service-sanlin-api" options="-parameters" />
+      <module name="app-service-sanlin-api (1)" options="-parameters" />
+      <module name="app-service-sanlin-restful" options="-parameters" />
+      <module name="app-service-sanlin-user" options="-parameters" />
+      <module name="app-service-sanlin-user-api" options="-parameters" />
+      <module name="app-service-user" options="-parameters" />
+      <module name="app-service-user-api" options="-parameters" />
+      <module name="app-service-user-gufei" options="-parameters" />
+      <module name="app-service-user-gufei-api" options="-parameters" />
+      <module name="app-service-user-sanlin" options="-parameters" />
+      <module name="app-service-user-sanlin-api" options="-parameters" />
+      <module name="app-service-water-data-api" options="" />
+      <module name="app-service-water-dcyh-api" options="" />
+      <module name="app-service-water-dfyh-api" options="" />
+      <module name="app-service-water-restful" options="" />
+      <module name="app-service-water-user-api" options="" />
+      <module name="app-service-wx" options="-parameters" />
+      <module name="app-service-wx-api" options="-parameters" />
+      <module name="app-service-wx-restful" options="-parameters" />
+    </option>
+  </component>
+</project>

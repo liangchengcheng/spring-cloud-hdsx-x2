@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="gufei@192.168.0.181" uuid="9f0fae23-dcc9-462c-a59a-91d8007aace0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.0.181:5432/gufei</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sanlin" uuid="96c7f085-884b-43b5-bdf4-f6b0fe0f2e2c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.0.181:5432/sanlin</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="waternest@192.168.0.181" uuid="3cb6afee-54bf-4f25-bf77-9fd6e819ab91">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.0.181:5432/waternest</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+server:
+  port: 8232
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8210/eureka/
+
+spring:
+
+  application:
+    name: app-common-new
+  datasource:
+    url: jdbc:postgresql://192.168.0.249:5432/drinksys?charSet=utf-8
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      filters: stat,logging
+      initial-size: 8
+      min-idle: 3
+      max-active: 10
+      query-timeout: 6000
+      transaction-query-timeout: 6000
+      remove-abandoned-timeout: 1800
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      test-while-idle:  true
+      test-on-borrow: false
+      test-on-return: false
+
+mybatis:
+  mapperLocations: classpath:/mybatis/xml/*.xml
+  typeAliasesPackage: com.hdsx.drinkwater.vo
+  config-location: classpath:mybatis-config.xml
+
+debug: true

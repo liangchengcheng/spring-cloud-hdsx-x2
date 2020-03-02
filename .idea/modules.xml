@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app-service-common/app-common-new.iml" filepath="$PROJECT_DIR$/app-service-common/app-common-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-gufei-restful/app-restful-gufei.iml" filepath="$PROJECT_DIR$/app-service-gufei-restful/app-restful-gufei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-sl/app-service-sanlin-restful/app-restful-sanlin.iml" filepath="$PROJECT_DIR$/app-service-sl/app-service-sanlin-restful/app-restful-sanlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-controller/app-service-restful/app-service-admin-restful.iml" filepath="$PROJECT_DIR$/app-service-controller/app-service-restful/app-service-admin-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-controller/app-service-api.iml" filepath="$PROJECT_DIR$/app-service-controller/app-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-common/app-service-common.iml" filepath="$PROJECT_DIR$/app-service-common/app-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-controller/app-service-controller.iml" filepath="$PROJECT_DIR$/app-service-controller/app-service-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-eureka/app-service-eureka.iml" filepath="$PROJECT_DIR$/app-service-eureka/app-service-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-getway/app-service-getway.iml" filepath="$PROJECT_DIR$/app-service-getway/app-service-getway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-monitor/app-service-monitor.iml" filepath="$PROJECT_DIR$/app-service-monitor/app-service-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider/app-service-order/app-service-order.iml" filepath="$PROJECT_DIR$/app-service-provider/app-service-order/app-service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider-api/app-service-order-api/app-service-order-api.iml" filepath="$PROJECT_DIR$/app-service-provider-api/app-service-order-api/app-service-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider/app-service-product/app-service-product.iml" filepath="$PROJECT_DIR$/app-service-provider/app-service-product/app-service-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider-api/app-service-product-api/app-service-product-api.iml" filepath="$PROJECT_DIR$/app-service-provider-api/app-service-product-api/app-service-product-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider/app-service-provider.iml" filepath="$PROJECT_DIR$/app-service-provider/app-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider-api/app-service-provider-api.iml" filepath="$PROJECT_DIR$/app-service-provider-api/app-service-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-controller/app-service-restful/app-service-restful.iml" filepath="$PROJECT_DIR$/app-service-controller/app-service-restful/app-service-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-wx/app-service-wx-api/app-service-sanlin-api (1).iml" filepath="$PROJECT_DIR$/app-service-wx/app-service-wx-api/app-service-sanlin-api (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider/app-service-user/app-service-user.iml" filepath="$PROJECT_DIR$/app-service-provider/app-service-user/app-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-provider-api/app-service-user-api/app-service-user-api.iml" filepath="$PROJECT_DIR$/app-service-provider-api/app-service-user-api/app-service-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-gufei-user/app-service-user-gufei.iml" filepath="$PROJECT_DIR$/app-service-gufei-user/app-service-user-gufei.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-gufei-user-api/app-service-user-gufei-api.iml" filepath="$PROJECT_DIR$/app-service-gufei-user-api/app-service-user-gufei-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-sl/app-service-sanlin-user/app-service-user-sanlin.iml" filepath="$PROJECT_DIR$/app-service-sl/app-service-sanlin-user/app-service-user-sanlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-sl/app-service-sanlin-user-api/app-service-user-sanlin-api.iml" filepath="$PROJECT_DIR$/app-service-sl/app-service-sanlin-user-api/app-service-user-sanlin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-service-water/app-service-water.iml" filepath="$PROJECT_DIR$/app-service-water/app-service-water.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-hdsx-x2.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-hdsx-x2.iml" />
+    </modules>
+  </component>
+</project>

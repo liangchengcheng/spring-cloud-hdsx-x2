@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-server #给你的微服务应用起一名字
+
+server:
+  port: 30000
+eureka:  
+  instance:  
+    hostname: localhost
+  client:  
+    registerWithEureka: false  #是否将自己注册到eureka server，构建集群环境时，需将自己注册到集群中，默认为true
+    fetchRegistry: false  #是否从eureka server获取注册信息，构建集群环境时，需同步其他eureka server节点，默认为true
+    serviceUrl:  
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ 

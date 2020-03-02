@@ -1,0 +1,56 @@
+server:
+  port: 30004
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:30000/eureka/
+feign:
+  hystrix:
+    enabled: true
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+# swagger2
+swagger2.package: com.hdsx.appservice.restful
+
+spring:
+  application:
+    name: app-service-restful
+  redis:
+    database: 0
+    host: 127.0.0.1
+    password:
+    timeout: 0
+    port: 6379
+    namespace: DRINKWATER
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+      enabled: true
+management:
+  security:
+    basic:
+      enabled: false # spring-boot 1.5.2之后严格执行安全策略，所以需要配置这个为false
+info: #定义各种额外的详情给服务端显示
+  app:
+    name: "@project.name@" #从pom.xml中获取
+    description: "@project.description@"
+    version: "@project.version@"
+    spring-boot-version: "@project.parent.version@"
+debug: true
+
+drinkwater:
+  imagePath: C:\nginx-1.9.5\webapp\appadmin\image\
+  filePath: C:\nginx-1.9.5\webapp\appadmin\file\
+  videoPath: C:\nginx-1.9.5\webapp\appadmin\video\
+  vuePath: C:\nginx-1.9.5\webapp\
+ribbon:
+  ReadTimeout: 180000
+  ConnectTimeout: 120000

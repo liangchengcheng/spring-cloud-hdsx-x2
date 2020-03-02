@@ -1,0 +1,15 @@
+# 端口
+server:
+  port: 8000
+
+spring:
+  profiles:
+    # 指定配置
+    # simple：简单尝试
+    # stripPrefix：截取请求
+    # uri：转发指定地址并传入参数
+    # addRequestParameter：转发指定服务并传入参数
+    # hystrix：熔断
+    # requestRateLimiter：限流
+    # all：综合
+    active: test

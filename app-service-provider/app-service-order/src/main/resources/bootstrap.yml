@@ -1,0 +1,18 @@
+spring:  
+  application:  
+    name: app-service-gufei
+eureka:  
+  client:  
+    service-url:  
+           defaultZone: http://peer2:8242/eureka/,http://peer1:8241/eureka/
+server:  
+  port: 10051
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+      health:
+        show-details: ALWAYS

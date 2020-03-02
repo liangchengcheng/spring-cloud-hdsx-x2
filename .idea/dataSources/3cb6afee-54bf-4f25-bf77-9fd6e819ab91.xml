@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="waternest@192.168.0.181">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
+    <root id="1">
+      <ServerVersion>9.5.3</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="anhuirhpwk">
+      <ObjectId>2086211</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="3" parent="1" name="dbuser">
+      <ObjectId>1174488</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="4" parent="1" name="gufei">
+      <ObjectId>1137192</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="5" parent="1" name="huanbohai">
+      <ObjectId>31348</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="6" parent="1" name="postgis_23_sample">
+      <ObjectId>16393</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="7" parent="1" name="postgres">
+      <ObjectId>12373</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="8" parent="1" name="sanlin2">
+      <ObjectId>1195150</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="9" parent="1" name="systemmanager">
+      <ObjectId>2104758</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="10" parent="1" name="waternest">
+      <ObjectId>1210193</ObjectId>
+      <Owner>watersys</Owner>
+      <IntrospectionStateNumber>214465</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|2079307|2079309|6
+sequence|table|1212086|1212088|24
+sequence|table|1211929|1211931|1
+sequence|table|2079281|2079283|7
+</Relations>
+    </database>
+    <database id="11" parent="1" name="watersys">
+      <ObjectId>18211</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="12" parent="1" name="wxtest">
+      <ObjectId>1178026</ObjectId>
+      <Owner>wangxiang</Owner>
+    </database>
+    <database id="13" parent="1" name="yangtze">
+      <ObjectId>18212</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <database id="14" parent="1" name="yellowsea">
+      <ObjectId>2100955</ObjectId>
+      <Owner>watersys</Owner>
+    </database>
+    <role id="15" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="16" parent="1" name="wangxiang">
+      <ObjectId>1178025</ObjectId>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+    </role>
+    <role id="17" parent="1" name="watersys">
+      <ObjectId>18210</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ValidUntil>infinity</ValidUntil>
+      <Replication>1</Replication>
+    </role>
+  </database-model>
+</dataSource>

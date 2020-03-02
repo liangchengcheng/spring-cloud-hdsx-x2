@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3abf0903-04c2-4f93-ab3b-433b8fedd52d" name="Default" comment="开始联调服务1 - getway3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set>
+        <option value="access-method" />
+        <option value="aggregate" />
+        <option value="argument" />
+        <option value="check" />
+        <option value="collation" />
+        <option value="column" />
+        <option value="database" />
+        <option value="extension" />
+        <option value="foreign-data-wrapper" />
+        <option value="foreign-key" />
+        <option value="foreign-table" />
+        <option value="index" />
+        <option value="key" />
+        <option value="materialized-view" />
+        <option value="object-attribute" />
+        <option value="object-type" />
+        <option value="operator" />
+        <option value="role" />
+        <option value="routine" />
+        <option value="rule" />
+        <option value="schema" />
+        <option value="sequence" />
+        <option value="server" />
+        <option value="table" />
+        <option value="trigger" />
+        <option value="user-mapping" />
+        <option value="view" />
+      </set>
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1W5mn0xbekC4Go6GnErPQwH5gkG" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app-service-getway/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22566372" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdsx.appservice.getway.filter" />
+      <recent name="com.hdsx.appservice.getway.handle" />
+      <recent name="com.hdsx.appservice.getway" />
+      <recent name="com.hdsx.appservice.restful" />
+      <recent name="com.hdsx.appservice.product.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app-service-getway/src/main/resources" />
+      <recent name="$PROJECT_DIR$/app-service-getway/src/main/java/com/hdsx/appservice/getway" />
+      <recent name="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/order" />
+      <recent name="$PROJECT_DIR$/app-service-common/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/product" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GetwayServerApplication">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdsx.appservice.junit.AtomicIntegerTest" />
+      <module name="app-service-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.appservice.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdsx.appservice.junit.CasTest" />
+      <module name="app-service-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.appservice.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdsx.appservice.junit.test8" />
+      <module name="app-service-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.appservice.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdsx.appservice.junit.test9" />
+      <module name="app-service-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.appservice.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hdsx.appservice.junit.testzz" />
+      <module name="app-service-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hdsx.appservice.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="app-service-common" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="app-service-common" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-admin-jk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.admin.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTurbinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-admin-jh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.admin.AdminTurbinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppAdminManagerServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppAdminManagerServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppAdminManagerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.drinkwater.AppAdminManagerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppCjjjdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-cjjjd-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppCjjjdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppCommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-commons-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppCommonsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-oldwater-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDcyhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-water-dcyh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppDcyhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDfyhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-water-dfyh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppDfyhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppOutletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-huanbohai-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppOutletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppPczzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-oldwater-pczz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppPczzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppPwkAnhuiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-pwk-anhui-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppPwkAnhuiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppPwkAnhuiRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-pwk-anhui-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppPwkAnhuiRestfulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulAppAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.RestfulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulAppAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.drinkwater.AppRestfulAppAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-oldwater-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppRestfulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulCjjjdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-cjjjd-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppRestfulCjjjdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulCommonsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-commons-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppRestfulCommonsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulGufeiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-gufei-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppRestfulGufeiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulOutletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-huanbohai-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppRestfulOutletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRestfulSanLinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-sanlin-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppRestfulSanLinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppServiceInspectorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-oldwater-inspector" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.inspector.AppServiceInspectorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-huanbohai-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserCjjjdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-cjjjd-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppUserCjjjdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserGufeiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-gufei-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppUserGufeiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-oldwater-userinfo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppUserInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserPwkAnhuiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-pwk-anhui-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppUserPwkAnhuiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppUserSanlinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-sanlin-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.AppUserSanlinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsulConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-consul-cunsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.ConsulConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsulProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-consul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.ConsulProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-eureka2.0-client-gufei" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yqf.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaPeer0Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.EurekaPeer0Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaPeer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-eureka-jiqun1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.EurekaPeer1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaPeer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-eureka-jiqun2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.EurekaPeer2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetwayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-getway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.getway.GetwayServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GufeiServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-gufei" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.GufeiServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsx.appservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanLinServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-sanlin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.SanLinServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineCjjjdApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-turbine-cjjjd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.TurbineCjjjdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineOutletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-turbine-outlet" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.TurbineOutletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineWaterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-turbine-water" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.TurbineWaterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="app-service-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hdsxtech.drinkwater.ZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test8" />
+      <item itemvalue="Application.testzz" />
+      <item itemvalue="Application.CasTest" />
+      <item itemvalue="Application.AtomicIntegerTest" />
+      <item itemvalue="Application.test9" />
+      <item itemvalue="Spring Boot.AppRestfulApplication" />
+      <item itemvalue="Spring Boot.AppRestfulCjjjdApplication" />
+      <item itemvalue="Spring Boot.AppRestfulOutletApplication" />
+      <item itemvalue="Spring Boot.AppCjjjdApplication" />
+      <item itemvalue="Spring Boot.ConsulProviderApplication" />
+      <item itemvalue="Spring Boot.ConsulConsumerApplication" />
+      <item itemvalue="Spring Boot.ZipkinApplication" />
+      <item itemvalue="Spring Boot.AppUserInfoApplication" />
+      <item itemvalue="Spring Boot.EurekaPeer2Application" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.TurbineWaterApplication" />
+      <item itemvalue="Spring Boot.AppDataApplication" />
+      <item itemvalue="Spring Boot.EurekaPeer0Application" />
+      <item itemvalue="Spring Boot.EurekaPeer1Application" />
+      <item itemvalue="Spring Boot.TurbineOutletApplication" />
+      <item itemvalue="Spring Boot.TurbineCjjjdApplication" />
+      <item itemvalue="Spring Boot.AppUserCjjjdApplication" />
+      <item itemvalue="Spring Boot.AppUserApplication" />
+      <item itemvalue="Spring Boot.AppPczzApplication" />
+      <item itemvalue="Spring Boot.AppOutletApplication" />
+      <item itemvalue="Spring Boot.AppServiceInspectorApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.GufeiServiceApplication" />
+      <item itemvalue="Spring Boot.AppRestfulGufeiApplication" />
+      <item itemvalue="Spring Boot.AppUserGufeiApplication" />
+      <item itemvalue="Spring Boot.AppRestfulSanLinApplication" />
+      <item itemvalue="Spring Boot.AppCommonsApplication" />
+      <item itemvalue="Spring Boot.AppRestfulCommonsApplication" />
+      <item itemvalue="Spring Boot.AppUserSanlinApplication" />
+      <item itemvalue="Spring Boot.AppUserPwkAnhuiApplication" />
+      <item itemvalue="Spring Boot.AppPwkAnhuiApplication" />
+      <item itemvalue="Spring Boot.AppPwkAnhuiRestfulApplication" />
+      <item itemvalue="Spring Boot.AppDfyhApplication" />
+      <item itemvalue="Spring Boot.AppDcyhApplication" />
+      <item itemvalue="Spring Boot.SanLinServiceApplication" />
+      <item itemvalue="Spring Boot.AppRestfulAppAdminApplication" />
+      <item itemvalue="Spring Boot.AppAdminManagerServiceApplication" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.AdminTurbinServerApplication" />
+      <item itemvalue="Spring Boot.AppAdminManagerServiceApplication (1)" />
+      <item itemvalue="Spring Boot.AppRestfulAppAdminApplication (1)" />
+      <item itemvalue="Spring Boot.AppAdminManagerServiceApplication (2)" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.GetwayServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test9" />
+        <item itemvalue="Application.test8" />
+        <item itemvalue="Application.AtomicIntegerTest" />
+        <item itemvalue="Application.CasTest" />
+        <item itemvalue="Application.testzz" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3abf0903-04c2-4f93-ab3b-433b8fedd52d" name="Default" comment="" />
+      <created>1553081570551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553081570551</updated>
+      <workItem from="1553081572278" duration="481000" />
+      <workItem from="1553082350580" duration="8055000" />
+      <workItem from="1553214392269" duration="1685000" />
+      <workItem from="1553221351208" duration="278000" />
+      <workItem from="1553226875730" duration="16616000" />
+      <workItem from="1553349890031" duration="67033000" />
+      <workItem from="1553594580274" duration="135000" />
+      <workItem from="1553594720156" duration="32143000" />
+      <workItem from="1553679796141" duration="17419000" />
+      <workItem from="1553742771110" duration="44260000" />
+      <workItem from="1554101971296" duration="12938000" />
+      <workItem from="1554175767660" duration="6615000" />
+      <workItem from="1554196566349" duration="1552000" />
+      <workItem from="1554202769093" duration="32270000" />
+      <workItem from="1554684266846" duration="23962000" />
+      <workItem from="1554792138013" duration="110000" />
+      <workItem from="1554793517258" duration="378000" />
+      <workItem from="1554793933502" duration="22645000" />
+      <workItem from="1555038002608" duration="16253000" />
+      <workItem from="1555292985538" duration="458000" />
+      <workItem from="1555293545222" duration="93000" />
+      <workItem from="1555293852875" duration="2388000" />
+      <workItem from="1555296364643" duration="61543000" />
+      <workItem from="1555632298169" duration="8134000" />
+      <workItem from="1555722925180" duration="62180000" />
+      <workItem from="1556450460367" duration="19667000" />
+      <workItem from="1556605163911" duration="2502000" />
+      <workItem from="1556672689379" duration="585000" />
+      <workItem from="1557188317914" duration="788000" />
+      <workItem from="1557189547409" duration="63774000" />
+      <workItem from="1557726764834" duration="12860000" />
+      <workItem from="1557828011679" duration="88508000" />
+      <workItem from="1558483143771" duration="75200000" />
+      <workItem from="1559100534167" duration="614000" />
+      <workItem from="1559106705519" duration="1652000" />
+      <workItem from="1559180864415" duration="10125000" />
+      <workItem from="1559618535415" duration="158000" />
+      <workItem from="1559625237292" duration="13808000" />
+      <workItem from="1560389718224" duration="163000" />
+      <workItem from="1560389929207" duration="951000" />
+      <workItem from="1560390890257" duration="6714000" />
+      <workItem from="1560474334182" duration="28006000" />
+      <workItem from="1560820715346" duration="21721000" />
+      <workItem from="1561074723127" duration="51944000" />
+      <workItem from="1561465605373" duration="21598000" />
+      <workItem from="1561602033368" duration="51644000" />
+      <workItem from="1562135033440" duration="6340000" />
+      <workItem from="1562197409747" duration="16736000" />
+      <workItem from="1562228823473" duration="11832000" />
+      <workItem from="1562543866727" duration="52482000" />
+      <workItem from="1562830382822" duration="37820000" />
+      <workItem from="1563347417873" duration="135000" />
+      <workItem from="1563347959608" duration="21095000" />
+      <workItem from="1563758279307" duration="4306000" />
+      <workItem from="1563772982580" duration="88046000" />
+      <workItem from="1564536493133" duration="125888000" />
+      <workItem from="1565753092075" duration="755000" />
+      <workItem from="1565760709569" duration="46085000" />
+      <workItem from="1566215880098" duration="94317000" />
+      <workItem from="1566971130880" duration="35531000" />
+      <workItem from="1567133399174" duration="3990000" />
+      <workItem from="1567142210361" duration="7199000" />
+      <workItem from="1567149901595" duration="2882000" />
+      <workItem from="1567153180713" duration="10480000" />
+      <workItem from="1567411818904" duration="1334000" />
+      <workItem from="1567413169825" duration="214000" />
+      <workItem from="1567413393638" duration="50231000" />
+      <workItem from="1567833296750" duration="30288000" />
+      <workItem from="1568026067845" duration="148037000" />
+      <workItem from="1570497830552" duration="10360000" />
+      <workItem from="1570515642486" duration="3275000" />
+      <workItem from="1570519014653" duration="497000" />
+      <workItem from="1570522626892" duration="55059000" />
+      <workItem from="1571186888557" duration="36156000" />
+      <workItem from="1571710851878" duration="82022000" />
+      <workItem from="1572419952575" duration="5518000" />
+      <workItem from="1572485375875" duration="111025000" />
+      <workItem from="1573697955748" duration="263000" />
+      <workItem from="1573698998302" duration="101445000" />
+      <workItem from="1574839203498" duration="86126000" />
+      <workItem from="1575595066074" duration="31012000" />
+      <workItem from="1576055449926" duration="3738000" />
+      <workItem from="1576067884597" duration="16243000" />
+      <workItem from="1576481942981" duration="6796000" />
+      <workItem from="1576489630385" duration="35397000" />
+      <workItem from="1577078574983" duration="53283000" />
+      <workItem from="1578044011582" duration="13526000" />
+      <workItem from="1578446387947" duration="118000" />
+      <workItem from="1578448016225" duration="53000" />
+      <workItem from="1578448209843" duration="137000" />
+      <workItem from="1578448396138" duration="137000" />
+      <workItem from="1578448589638" duration="38000" />
+      <workItem from="1578448676115" duration="342000" />
+      <workItem from="1578449070767" duration="82000" />
+      <workItem from="1578449222702" duration="15980000" />
+      <workItem from="1578472084431" duration="34871000" />
+      <workItem from="1579063998772" duration="1971000" />
+      <workItem from="1579066598058" duration="8185000" />
+      <workItem from="1579526246678" duration="600000" />
+      <workItem from="1580865936156" duration="2233000" />
+      <workItem from="1580874037352" duration="276000" />
+      <workItem from="1580887541274" duration="1544000" />
+      <workItem from="1580954148162" duration="4241000" />
+      <workItem from="1581052188654" duration="8321000" />
+      <workItem from="1581298981301" duration="279000" />
+      <workItem from="1581339856418" duration="1053000" />
+      <workItem from="1581414342499" duration="816000" />
+      <workItem from="1581487372385" duration="127000" />
+      <workItem from="1581487553960" duration="1506000" />
+      <workItem from="1581489868165" duration="6460000" />
+      <workItem from="1581850682987" duration="645000" />
+      <workItem from="1582808054575" duration="12181000" />
+      <workItem from="1582979337676" duration="27203000" />
+    </task>
+    <task id="LOCAL-00122" summary="水源地短信验证码bug修复">
+      <created>1568617630728</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1568617630728</updated>
+    </task>
+    <task id="LOCAL-00123" summary="水源地-用户增加过期时间，水源地问题增加状态">
+      <created>1568626673638</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1568626673638</updated>
+    </task>
+    <task id="LOCAL-00124" summary="水源地-数据库变为watersnest">
+      <created>1568709609981</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1568709609981</updated>
+    </task>
+    <task id="LOCAL-00125" summary="水源地-解决督查清单外问题详情的路径问题">
+      <created>1568786455904</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1568786455904</updated>
+    </task>
+    <task id="LOCAL-00126" summary="水源地-统计之统计月报的问题">
+      <created>1568859178091</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1568859178091</updated>
+    </task>
+    <task id="LOCAL-00127" summary="水源地-三磷的变态修改。">
+      <created>1568959635136</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1568959635136</updated>
+    </task>
+    <task id="LOCAL-00128" summary="督查相关---1">
+      <created>1570607181550</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1570607181551</updated>
+    </task>
+    <task id="LOCAL-00129" summary="督查相关---2">
+      <created>1570764231831</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1570764231832</updated>
+    </task>
+    <task id="LOCAL-00130" summary="督查相关---3">
+      <created>1570782452742</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1570782452743</updated>
+    </task>
+    <task id="LOCAL-00131" summary="长江-流程图-字段int">
+      <created>1570787764541</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1570787764541</updated>
+    </task>
+    <task id="LOCAL-00132" summary="长江-流程图-长江经济带的修改">
+      <created>1571217300691</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1571217300693</updated>
+    </task>
+    <task id="LOCAL-00133" summary="长江-长江经济带的修改bug">
+      <created>1571219799594</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1571219799594</updated>
+    </task>
+    <task id="LOCAL-00134" summary="长江-固废加编码。渤海修改了网格。">
+      <created>1571641660075</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1571641660076</updated>
+    </task>
+    <task id="LOCAL-00135" summary="增加黄海-渤海修复bug-长江修复bug">
+      <created>1572240628297</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1572240628297</updated>
+    </task>
+    <task id="LOCAL-00136" summary="黄海bug修复+清废新功能。">
+      <created>1572426354485</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1572426354486</updated>
+    </task>
+    <task id="LOCAL-00137" summary="水源地增加新问题采集、三磷增加月报模块">
+      <created>1573548733535</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1573548733535</updated>
+    </task>
+    <task id="LOCAL-00138" summary="三磷增加综合验收功能">
+      <created>1573720931883</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1573720931884</updated>
+    </task>
+    <task id="LOCAL-00139" summary="水源地优化">
+      <created>1574323287561</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1574323287561</updated>
+    </task>
+    <task id="LOCAL-00140" summary="super admin yu app info">
+      <created>1574762733858</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1574762733859</updated>
+    </task>
+    <task id="LOCAL-00141" summary="super admin yu vue info">
+      <created>1575271139733</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1575271139738</updated>
+    </task>
+    <task id="LOCAL-00142" summary="super admin yu vue info -2">
+      <created>1575276767294</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1575276767294</updated>
+    </task>
+    <task id="LOCAL-00143" summary="super admin yu user info -2">
+      <created>1575428136343</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1575428136344</updated>
+    </task>
+    <task id="LOCAL-00144" summary="super admin yu user info -3">
+      <created>1575536189051</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1575536189052</updated>
+    </task>
+    <task id="LOCAL-00145" summary="super admin yu bug info -6">
+      <created>1575885254818</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1575885254819</updated>
+    </task>
+    <task id="LOCAL-00146" summary="super admin yu bug info -7">
+      <created>1576648203081</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1576648203082</updated>
+    </task>
+    <task id="LOCAL-00147" summary="水源地评价分数-未测试">
+      <created>1576748219217</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1576748219222</updated>
+    </task>
+    <task id="LOCAL-00148" summary="水源地评价分数-未测试1">
+      <created>1576833967735</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1576833967735</updated>
+    </task>
+    <task id="LOCAL-00149" summary="水源地评价分数-未测试2">
+      <created>1577090504972</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1577090504974</updated>
+    </task>
+    <task id="LOCAL-00150" summary="水源地评价分数- 用户注销">
+      <created>1577260256637</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1577260256638</updated>
+    </task>
+    <task id="LOCAL-00151" summary="水源地评价分数- 用户注销2">
+      <created>1577323892016</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1577323892022</updated>
+    </task>
+    <task id="LOCAL-00152" summary="长江排污口-溯源2">
+      <created>1577414764233</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1577414764233</updated>
+    </task>
+    <task id="LOCAL-00153" summary="水源地-执法效果评估-不可控风险">
+      <created>1578031008911</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1578031008915</updated>
+    </task>
+    <task id="LOCAL-00154" summary="测试类">
+      <created>1578363975039</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1578363975043</updated>
+    </task>
+    <task id="LOCAL-00155" summary="项目结构变化">
+      <created>1578463906708</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1578463906709</updated>
+    </task>
+    <task id="LOCAL-00156" summary="项目结构变化">
+      <created>1578464450827</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1578464450827</updated>
+    </task>
+    <task id="LOCAL-00157" summary="项目结构变化">
+      <created>1578467151736</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1578467151736</updated>
+    </task>
+    <task id="LOCAL-00158" summary="项目结构变化">
+      <created>1578552966301</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1578552966302</updated>
+    </task>
+    <task id="LOCAL-00159" summary="溯源-部分bug修复。">
+      <created>1578559730828</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1578559730828</updated>
+    </task>
+    <task id="LOCAL-00160" summary="甘肃排污口-特殊化定制">
+      <created>1578993278141</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1578993278141</updated>
+    </task>
+    <task id="LOCAL-00161" summary="开始联调服务">
+      <created>1582811978360</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1582811978362</updated>
+    </task>
+    <task id="LOCAL-00162" summary="开始联调服务1= 完善服务">
+      <created>1582878343939</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1582878343939</updated>
+    </task>
+    <task id="LOCAL-00163" summary="开始联调服务1= 完善服务2">
+      <created>1582896139628</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1582896139629</updated>
+    </task>
+    <task id="LOCAL-00164" summary="开始联调服务1= 完善服务3">
+      <created>1582897621208</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1582897621208</updated>
+    </task>
+    <task id="LOCAL-00165" summary="开始联调服务1 - user1">
+      <created>1582981417906</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1582981417909</updated>
+    </task>
+    <task id="LOCAL-00166" summary="开始联调服务1 - product">
+      <created>1582982359556</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1582982359556</updated>
+    </task>
+    <task id="LOCAL-00167" summary="开始联调服务1 - rest">
+      <created>1582985721230</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1582985721236</updated>
+    </task>
+    <task id="LOCAL-00168" summary="开始联调服务1 - getway">
+      <created>1583041490843</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1583041490843</updated>
+    </task>
+    <task id="LOCAL-00169" summary="开始联调服务1 - getway2">
+      <created>1583050854663</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1583050854664</updated>
+    </task>
+    <task id="LOCAL-00170" summary="开始联调服务1 - getway3">
+      <created>1583059931951</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1583059931952</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="super admin yu user info -2" />
+    <MESSAGE value="super admin yu user info -3" />
+    <MESSAGE value="super admin yu bug info -6" />
+    <MESSAGE value="super admin yu bug info -7" />
+    <MESSAGE value="水源地评价分数-未测试" />
+    <MESSAGE value="水源地评价分数-未测试1" />
+    <MESSAGE value="水源地评价分数-未测试2" />
+    <MESSAGE value="水源地评价分数- 用户注销" />
+    <MESSAGE value="水源地评价分数- 用户注销2" />
+    <MESSAGE value="长江排污口-溯源2" />
+    <MESSAGE value="水源地-执法效果评估-不可控风险" />
+    <MESSAGE value="测试类" />
+    <MESSAGE value="项目结构变化" />
+    <MESSAGE value="溯源-部分bug修复。" />
+    <MESSAGE value="甘肃排污口-特殊化定制" />
+    <MESSAGE value="开始联调服务" />
+    <MESSAGE value="开始联调服务1= 完善服务" />
+    <MESSAGE value="开始联调服务1= 完善服务2" />
+    <MESSAGE value="开始联调服务1= 完善服务3" />
+    <MESSAGE value="开始联调服务1 - user1" />
+    <MESSAGE value="开始联调服务1 - product" />
+    <MESSAGE value="开始联调服务1 - rest" />
+    <MESSAGE value="开始联调服务1 - getway" />
+    <MESSAGE value="开始联调服务1 - getway2" />
+    <MESSAGE value="开始联调服务1 - getway3" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始联调服务1 - getway3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="194" y="39" key="#Project_Structure" timestamp="1582986976274">
+      <screen x="0" y="23" width="1280" height="744" />
+    </state>
+    <state x="194" y="39" key="#Project_Structure/0.23.1280.744@0.23.1280.744" timestamp="1582986976274" />
+    <state x="627" y="203" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578469962089">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="627" y="203" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.741@0.23.1280.741" timestamp="1578469962089" />
+    <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1582895848017">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.23.1280.741@0.23.1280.741" timestamp="1581053736836" />
+    <state x="453" y="109" key="#com.intellij.ide.util.MemberChooser/0.23.1280.743@0.23.1280.743" timestamp="1582895848017" />
+    <state x="192" y="259" width="895" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579064148632">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="192" y="259" width="895" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.741@0.23.1280.741" timestamp="1579064148632" />
+    <state x="259" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582811453181">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state x="377" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.741@0.23.1280.741" timestamp="1581493135616" />
+    <state x="259" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.743@0.23.1280.743" timestamp="1582811453181" />
+    <state x="377" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582809039360">
+      <screen x="0" y="23" width="1280" height="743" />
+    </state>
+    <state x="377" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.741@0.23.1280.741" timestamp="1581493115173" />
+    <state x="377" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.743@0.23.1280.743" timestamp="1582809039360" />
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1583059931670">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.741@0.23.1280.741" timestamp="1578993276809" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.742@0.23.1280.742" timestamp="1583059931670" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.743@0.23.1280.743" timestamp="1582982358949" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.744@0.23.1280.744" timestamp="1582985720376" />
+    <state width="1218" height="309" key="GridCell.Tab.0.bottom" timestamp="1583045815067">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1218" height="309" key="GridCell.Tab.0.bottom/0.23.1280.741@0.23.1280.741" timestamp="1581163093501" />
+    <state width="1218" height="309" key="GridCell.Tab.0.bottom/0.23.1280.742@0.23.1280.742" timestamp="1583045815067" />
+    <state width="1218" height="309" key="GridCell.Tab.0.bottom/0.23.1280.743@0.23.1280.743" timestamp="1583036168877" />
+    <state width="1218" height="309" key="GridCell.Tab.0.bottom/0.23.1280.744@0.23.1280.744" timestamp="1582990208139" />
+    <state width="1218" height="309" key="GridCell.Tab.0.center" timestamp="1583045815066">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1218" height="309" key="GridCell.Tab.0.center/0.23.1280.741@0.23.1280.741" timestamp="1581163093498" />
+    <state width="1218" height="309" key="GridCell.Tab.0.center/0.23.1280.742@0.23.1280.742" timestamp="1583045815066" />
+    <state width="1218" height="309" key="GridCell.Tab.0.center/0.23.1280.743@0.23.1280.743" timestamp="1583036168875" />
+    <state width="1218" height="309" key="GridCell.Tab.0.center/0.23.1280.744@0.23.1280.744" timestamp="1582990208136" />
+    <state width="1218" height="309" key="GridCell.Tab.0.left" timestamp="1583045815064">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1218" height="309" key="GridCell.Tab.0.left/0.23.1280.741@0.23.1280.741" timestamp="1581163093497" />
+    <state width="1218" height="309" key="GridCell.Tab.0.left/0.23.1280.742@0.23.1280.742" timestamp="1583045815064" />
+    <state width="1218" height="309" key="GridCell.Tab.0.left/0.23.1280.743@0.23.1280.743" timestamp="1583036168873" />
+    <state width="1218" height="309" key="GridCell.Tab.0.left/0.23.1280.744@0.23.1280.744" timestamp="1582990208132" />
+    <state width="1218" height="309" key="GridCell.Tab.0.right" timestamp="1583045815066">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1218" height="309" key="GridCell.Tab.0.right/0.23.1280.741@0.23.1280.741" timestamp="1581163093498" />
+    <state width="1218" height="309" key="GridCell.Tab.0.right/0.23.1280.742@0.23.1280.742" timestamp="1583045815066" />
+    <state width="1218" height="309" key="GridCell.Tab.0.right/0.23.1280.743@0.23.1280.743" timestamp="1583036168877" />
+    <state width="1218" height="309" key="GridCell.Tab.0.right/0.23.1280.744@0.23.1280.744" timestamp="1582990208136" />
+    <state width="1218" height="309" key="GridCell.Tab.1.bottom" timestamp="1583045815069">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="345" key="GridCell.Tab.1.bottom/0.23.1280.741@0.23.1280.741" timestamp="1578548522760" />
+    <state width="1218" height="309" key="GridCell.Tab.1.bottom/0.23.1280.742@0.23.1280.742" timestamp="1583045815069" />
+    <state width="1218" height="309" key="GridCell.Tab.1.bottom/0.23.1280.743@0.23.1280.743" timestamp="1583036168904" />
+    <state width="1218" height="309" key="GridCell.Tab.1.bottom/0.23.1280.744@0.23.1280.744" timestamp="1582990208144" />
+    <state width="1218" height="309" key="GridCell.Tab.1.center" timestamp="1583045815068">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="345" key="GridCell.Tab.1.center/0.23.1280.741@0.23.1280.741" timestamp="1578548522759" />
+    <state width="1218" height="309" key="GridCell.Tab.1.center/0.23.1280.742@0.23.1280.742" timestamp="1583045815068" />
+    <state width="1218" height="309" key="GridCell.Tab.1.center/0.23.1280.743@0.23.1280.743" timestamp="1583036168892" />
+    <state width="1218" height="309" key="GridCell.Tab.1.center/0.23.1280.744@0.23.1280.744" timestamp="1582990208140" />
+    <state width="1218" height="309" key="GridCell.Tab.1.left" timestamp="1583045815067">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="345" key="GridCell.Tab.1.left/0.23.1280.741@0.23.1280.741" timestamp="1578548522758" />
+    <state width="1218" height="309" key="GridCell.Tab.1.left/0.23.1280.742@0.23.1280.742" timestamp="1583045815067" />
+    <state width="1218" height="309" key="GridCell.Tab.1.left/0.23.1280.743@0.23.1280.743" timestamp="1583036168878" />
+    <state width="1218" height="309" key="GridCell.Tab.1.left/0.23.1280.744@0.23.1280.744" timestamp="1582990208140" />
+    <state width="1218" height="309" key="GridCell.Tab.1.right" timestamp="1583045815068">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state width="1238" height="345" key="GridCell.Tab.1.right/0.23.1280.741@0.23.1280.741" timestamp="1578548522760" />
+    <state width="1218" height="309" key="GridCell.Tab.1.right/0.23.1280.742@0.23.1280.742" timestamp="1583045815068" />
+    <state width="1218" height="309" key="GridCell.Tab.1.right/0.23.1280.743@0.23.1280.743" timestamp="1583036168894" />
+    <state width="1218" height="309" key="GridCell.Tab.1.right/0.23.1280.744@0.23.1280.744" timestamp="1582990208144" />
+    <state x="141" y="33" key="SettingsEditor" timestamp="1581299056267">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="141" y="33" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1581299056267" />
+    <state x="239" y="133" key="Vcs.Push.Dialog.v2" timestamp="1583059934379">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1578993280517" />
+    <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.742@0.23.1280.742" timestamp="1583059934379" />
+    <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.743@0.23.1280.743" timestamp="1582982370511" />
+    <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.744@0.23.1280.744" timestamp="1582985724234" />
+    <state x="317" y="226" key="com.intellij.ide.util.TipDialog" timestamp="1578448019445">
+      <screen x="0" y="23" width="1280" height="741" />
+    </state>
+    <state x="317" y="226" key="com.intellij.ide.util.TipDialog/0.23.1280.741@0.23.1280.741" timestamp="1578448019445" />
+    <state x="378" y="23" width="902" height="742" key="find.popup" timestamp="1583126371368">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state x="378" y="23" width="902" height="741" key="find.popup/0.23.1280.741@0.23.1280.741" timestamp="1581070268627" />
+    <state x="378" y="23" width="902" height="742" key="find.popup/0.23.1280.742@0.23.1280.742" timestamp="1583126371368" />
+    <state x="378" y="23" width="902" height="743" key="find.popup/0.23.1280.743@0.23.1280.743" timestamp="1582984913718" />
+    <state x="34" y="159" key="new project wizard" timestamp="1583059903425">
+      <screen x="0" y="23" width="1280" height="742" />
+    </state>
+    <state x="12" y="111" key="new project wizard/0.23.1280.741@0.23.1280.741" timestamp="1581490655811" />
+    <state x="34" y="159" key="new project wizard/0.23.1280.742@0.23.1280.742" timestamp="1583059903425" />
+    <state x="34" y="162" key="new project wizard/0.23.1280.744@0.23.1280.744" timestamp="1582986793901" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-oldwater-pczz/src/main/java/com/hdsxtech/drinkwater/pczz/service/impl/MoonServiceImpl.java</url>
+          <line>205</line>
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-oldwater-rest/src/main/java/com/hdsxtech/drinkwater/rest/controller/MoonController.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-oldwater-rest/src/main/java/com/hdsxtech/drinkwater/rest/controller/MoonController.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-gufei-restful/src/main/java/com/hdsxtech/drinkwater/restgufei/controller/LclgController.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-gufei/src/main/java/com/hdsxtech/drinkwater/gufei/service/impl/LclgServiceImpl.java</url>
+          <line>269</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-gufei/src/main/java/com/hdsxtech/drinkwater/gufei/service/impl/LclgServiceImpl.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-gufei/src/main/java/com/hdsxtech/drinkwater/gufei/service/impl/LclgServiceImpl.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-common-gufei/src/main/java/com/hdsxtech2/drinkwater/QuanxianCenter.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/ErjiPaichaServiceImpl.java</url>
+          <line>278</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/EnumsServiceImpl.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/JedisService.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/JedisService.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/ErjiPaichaServiceImpl.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/ErjiPaichaServiceImpl.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-water-data/src/main/java/com/hdsxtech/drinkwater/data/service/impl/WaterSourceInfoServiceImpl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-water-restful/src/main/java/com/hdsxtech/drinkwater/RedisUtils.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-oldwater-rest/src/main/java/com/hdsxtech/drinkwater/rest/controller/TrackController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-water-restful/src/main/java/com/hdsxtech/drinkwater/rest/controller/TrackController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-oldwater-rest/src/main/java/com/hdsxtech/drinkwater/rest/controller/TrackController.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/ErjiPaichaServiceImpl.java</url>
+          <line>248</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/ErjiPaichaServiceImpl.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/ErjiPaichaServiceImpl.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-water-user/src/main/java/com/hdsxtech/drinkwater/user/service/impl/UserInfoServiceImpl.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-water-restful/src/main/java/com/hdsxtech/drinkwater/rest/controller/UserInfoController.java</url>
+          <line>457</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-gufei/src/main/java/com/hdsxtech/drinkwater/gufei/service/impl/XchsServiceImpl.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-common-gufei/src/main/java/com/hdsxtech2/drinkwater/bean/gufei/zgcs/ZgcsEnumsBean.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-gufei/src/main/java/com/hdsxtech/drinkwater/gufei/service/impl/ZgqkServiceImpl.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-gufei/src/main/java/com/hdsxtech/drinkwater/gufei/service/impl/ZgqkServiceImpl.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-huanbohai-data/src/main/java/com/hdsxtech/drinkwater/outlet/service/impl/ErjiPaichaServiceImpl.java</url>
+          <line>443</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-admin-restful/src/main/java/com/hdsx/drinkwater/restgufei/controller/VueAdminController.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-admin-data/src/main/java/com/hdsx/drinkwater/admin/service/impl/VueManagerServiceServiceImpl.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-admin-restful/src/main/java/com/hdsx/drinkwater/restgufei/controller/UserAdminController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-admin-restful/src/main/java/com/hdsx/drinkwater/restgufei/controller/FilesAdminController.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app-service-admin-restful/src/main/java/com/hdsx/drinkwater/restgufei/controller/FilesAdminController.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app-common/src/main/java/com/hdsxtech/drinkwater/dao/PwkAnhuiMapper.java</url>
+          <line>61</line>
+          <properties class="com.hdsxtech.drinkwater.dao.PwkAnhuiMapper" method="getRhpwkBeanById" />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-field">
+          <url>file://$PROJECT_DIR$/app-common/src/main/java/com/hdsxtech/drinkwater/bean/YwthdBean.java</url>
+          <line>13</line>
+          <properties field="wsName" class="com.hdsxtech.drinkwater.bean.YwthdBean" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/app-common/src/main/java/com/hdsxtech/drinkwater/bean/watersys/dfyh/ybtj/YbtjWaterCheckBean.java</url>
+          <line>19</line>
+          <properties field="zzjd" class="com.hdsxtech.drinkwater.bean.watersys.dfyh.ybtj.YbtjWaterCheckBean" />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
