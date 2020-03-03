@@ -12,6 +12,7 @@ import com.hdsx.appservice.dao.OrderMapper;
 import com.hdsx.appservice.dao.UserMapper;
 import com.hdsx.appservice.order.service.OrderService;
 import com.hdsx.appservice.product.service.ProductService;
+import io.seata.spring.annotation.GlobalTransactional;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -44,7 +45,9 @@ public class OrderServiceImpl implements OrderService {
     private ProductService productService;
 
     @ApiOperation("插入订单的信息（插入和更新状态判断）")
-    @Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    // 微服务要用分布式事物
+    // @Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    @GlobalTransactional(name = "fsp-create-order",rollbackFor = Exception.class)
     @Override
     public XbinResult editOrder(@RequestBody OrderBean orderBean) {
         try {
@@ -62,7 +65,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @ApiOperation("更新USER的信息")
-    @Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
+    @GlobalTransactional(name = "fsp-create-order",rollbackFor = Exception.class)
     @Override
     public XbinResult addOrder(@RequestBody OrderBean orderBean) {
         try {

@@ -42,10 +42,10 @@
       <Owner>watersys</Owner>
       <IntrospectionStateNumber>214465</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|2079307|2079309|6
-sequence|table|1212086|1212088|24
-sequence|table|1211929|1211931|1
+      <Relations>sequence|table|1212086|1212088|24
+sequence|table|2079307|2079309|6
 sequence|table|2079281|2079283|7
+sequence|table|1211929|1211931|1
 </Relations>
     </database>
     <database id="11" parent="1" name="watersys">

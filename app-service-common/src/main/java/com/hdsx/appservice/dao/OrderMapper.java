@@ -3,12 +3,14 @@ package com.hdsx.appservice.dao;
 
 import com.hdsx.appservice.bean.order.OrderBean;
 import com.hdsx.appservice.bean.order.OrderQueryBean;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * 订单 mapper
  */
+@Repository
 public interface OrderMapper {
     /**
      * 查询订单的列表

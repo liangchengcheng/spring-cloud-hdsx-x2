@@ -63,7 +63,6 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @ApiOperation("更新库存的微服务")
-    @Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     @Override
     public XbinResult UpdateProductNumBean(@RequestBody ProductNumBean productNumBean) {
         try {

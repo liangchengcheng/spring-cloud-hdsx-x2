@@ -17,26 +17,26 @@
       <Owner>watersys</Owner>
       <IntrospectionStateNumber>123336</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|1146961|1146963|1
+      <Relations>sequence|table|1137363|1137365|10
+sequence|table|1147484|1147486|1
+sequence|table|1147496|1147498|1
+sequence|table|1202620|1202622|1
+sequence|table|1146961|1146963|1
 sequence|table|1147201|1147203|1
 sequence|table|1147218|1147220|1
 sequence|table|1147237|1147239|1
-sequence|table|1137363|1137365|10
-sequence|table|1147412|1147414|1
-sequence|table|1147426|1147428|1
-sequence|table|1147440|1147442|1
-sequence|table|1147472|1147474|1
-sequence|table|1147484|1147486|1
-sequence|table|1147496|1147498|1
-sequence|table|1206129|1206131|9
-sequence|table|1147281|1147283|1
 sequence|table|1147264|1147266|1
+sequence|table|1147281|1147283|1
 sequence|table|1147298|1147300|1
 sequence|table|1147333|1147335|1
 sequence|table|1147316|1147318|1
 sequence|table|1147344|1147346|1
 sequence|table|1147354|1147356|1
-sequence|table|1202620|1202622|1
+sequence|table|1147412|1147414|1
+sequence|table|1147426|1147428|1
+sequence|table|1147440|1147442|1
+sequence|table|1147472|1147474|1
+sequence|table|1206129|1206131|9
 </Relations>
     </database>
     <database id="5" parent="1" name="huanbohai">

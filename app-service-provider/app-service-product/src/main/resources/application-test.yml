@@ -1,21 +1,30 @@
 server:
   port: 30002
 
+# 服务注册中心
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
     health-check-url-path: /actuator/health
+    hostname: localhost
+    prefer-ip-address: true
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://127.0.0.1:30000/eureka/
 
-# swagger2
+# 接口文档界面
 swagger2.package: com.hdsx.appservice.product.service
 
+# 程序名称、redis配置、数据库配置
 spring:
   application:
     name: app-service-product
+  # Seata
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: fsp_tx_group
   redis:
     database: 0
     host: 127.0.0.1
@@ -43,6 +52,8 @@ spring:
       test-while-idle:  true
       test-on-borrow: false
       test-on-return: false
+
+# 服务健康配置
 management:
   endpoints:
     web:
@@ -51,9 +62,119 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
-
+# mybatis配置
 mybatis:
   mapperLocations: classpath:/mapper/*.xml
   config-location: classpath:mybatis-config.xml
 
 debug: true
+
+
+seata:
+  enabled: true
+  application-id: product-service
+  tx-service-group: my_test_tx_group
+  #enable-auto-data-source-proxy: true
+  #use-jdk-proxy: false
+  client:
+    rm:
+      async-commit-buffer-limit: 1000
+      report-retry-count: 5
+      table-meta-check-enable: false
+      report-success-enable: false
+      lock:
+        retry-interval: 10
+        retry-times: 30
+        retry-policy-branch-rollback-on-conflict: true
+    tm:
+      commit-retry-count: 5
+      rollback-retry-count: 5
+    undo:
+      data-validation: true
+      log-serialization: jackson
+      log-table: undo_log
+    log:
+      exceptionRate: 100
+  service:
+    vgroup-mapping:
+      my_test_tx_group: default
+    grouplist:
+      default: 127.0.0.1:8091
+    #enable-degrade: false
+    #disable-global-transaction: false
+  transport:
+    shutdown:
+      wait: 3
+    thread-factory:
+      boss-thread-prefix: NettyBoss
+      worker-thread-prefix: NettyServerNIOWorker
+      server-executor-thread-prefix: NettyServerBizHandler
+      share-boss-worker: false
+      client-selector-thread-prefix: NettyClientSelector
+      client-selector-thread-size: 1
+      client-worker-thread-prefix: NettyClientWorkerThread
+      worker-thread-size: default
+      boss-thread-size: 1
+    type: TCP
+    server: NIO
+    heartbeat: true
+    serialization: seata
+    compressor: none
+    enable-client-batch-send-request: true
+  config:
+    type: file
+    consul:
+      server-addr: 127.0.0.1:8500
+    apollo:
+      apollo-meta: http://192.168.1.204:8801
+      app-id: seata-server
+      namespace: application
+    etcd3:
+      server-addr: http://localhost:2379
+    nacos:
+      namespace:
+      serverAddr: localhost
+      group: SEATA_GROUP
+    zk:
+      server-addr: 127.0.0.1:2181
+      session-timeout: 6000
+      connect-timeout: 2000
+      username: ""
+      password: ""
+  registry:
+    type: file
+    consul:
+      cluster: default
+      server-addr: 127.0.0.1:8500
+    etcd3:
+      cluster: default
+      serverAddr: http://localhost:2379
+    eureka:
+      application: default
+      weight: 1
+      service-url: http://localhost:8761/eureka
+    nacos:
+      cluster: default
+      server-addr: localhost
+      namespace:
+    redis:
+      server-addr: localhost:6379
+      db: 0
+      password:
+      cluster: default
+      timeout: 0
+    sofa:
+      server-addr: 127.0.0.1:9603
+      application: default
+      region: DEFAULT_ZONE
+      datacenter: DefaultDataCenter
+      cluster: default
+      group: SEATA_GROUP
+      addressWaitTime: 3000
+    zk:
+      cluster: default
+      server-addr: 127.0.0.1:2181
+      session-timeout: 6000
+      connect-timeout: 2000
+      username: ""
+      password: ""
