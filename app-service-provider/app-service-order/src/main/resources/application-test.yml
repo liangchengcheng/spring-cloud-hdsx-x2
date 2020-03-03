@@ -12,6 +12,7 @@ eureka:
     registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://127.0.0.1:30000/eureka/
+
 # swagger2
 swagger2.package: com.hdsx.appservice.order.service
 
@@ -19,7 +20,7 @@ swagger2.package: com.hdsx.appservice.order.service
 spring:
   application:
     name: app-service-order
-  # seata
+  # seata （废）
   cloud:
     alibaba:
       seata:
@@ -67,6 +68,8 @@ mybatis:
 
 debug: true
 
+# 分布式事物（多次测试，当前版本seata 和cloud eureka有点不太兼容）
+# 才用简单的boot版本的集成模式
 seata:
   enabled: true
   application-id: order-service

@@ -9,8 +9,10 @@ eureka:
     registryFetchIntervalSeconds: 5
     serviceUrl:
       defaultZone: http://127.0.0.1:30000/eureka/
+
 # swagger2
 swagger2.package: com.hdsx.appservice.user.service
+
 # redis mysql druid
 spring:
   application:
@@ -42,6 +44,7 @@ spring:
       test-while-idle:  true
       test-on-borrow: false
       test-on-return: false
+
 # health
 management:
   endpoints:
@@ -51,9 +54,9 @@ management:
   endpoint:
     health:
       show-details: ALWAYS
+
 # mybatis
 mybatis:
   mapperLocations: classpath:/mapper/*.xml
-  typeAliasesPackage: com.hdsx.drinkwater.vo
   config-location: classpath:mybatis-config.xml
 debug: true

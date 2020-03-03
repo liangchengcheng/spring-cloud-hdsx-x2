@@ -1,45 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3abf0903-04c2-4f93-ab3b-433b8fedd52d" name="Default" comment="集成分布式事物。 订单增加的时候  消减  商品的库存">
+    <list default="true" id="3abf0903-04c2-4f93-ab3b-433b8fedd52d" name="Default" comment="对部分代码规整">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/base/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/base/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/ApiResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/ApiResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/XbinResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/XbinResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/order/OrderBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/order/OrderBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/order/OrderQueryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/order/OrderQueryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/user/ChangePassWordBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/user/ChangePassWordBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/user/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/user/UserBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/user/UserQueryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/bean/user/UserQueryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/dao/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/dao/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/CoordinateTransformUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/CoordinateTransformUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/DateParseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/DateParseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/GpsBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/GsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/GsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/IpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/IpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/PositionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/WaterMarkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/WaterMarkUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/XzqhUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/java/com/hdsx/appservice/utils/XzqhUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-common/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-common/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/CrossDomainFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/CrossDomainFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/RestfulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/RestfulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/java/com/hdsx/appservice/Swagger2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/app-service-restful/src/main/resources/application-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-getway/app-service-getway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-getway/app-service-getway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-service-provider-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-getway/src/main/java/com/hdsx/appservice/getway/config/RouteConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-getway/src/main/java/com/hdsx/appservice/getway/config/RouteConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-getway/src/main/java/com/hdsx/appservice/getway/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-getway/src/main/java/com/hdsx/appservice/getway/filter/TokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-getway/src/main/java/com/hdsx/appservice/getway/handle/SwaggerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-getway/src/main/java/com/hdsx/appservice/getway/handle/SwaggerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-order/src/main/java/com/hdsx/appservice/order/config/DataSourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-order/src/main/java/com/hdsx/appservice/order/config/DataSourceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-order/src/main/java/com/hdsx/appservice/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-order/src/main/java/com/hdsx/appservice/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-order/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-order/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-product/src/main/java/com/hdsx/appservice/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-product/src/main/java/com/hdsx/appservice/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-product/src/main/java/com/hdsx/appservice/product/util/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-product/src/main/java/com/hdsx/appservice/product/util/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-product/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-product/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-service-provider/app-service-user/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app-service-provider/app-service-user/src/main/resources/application-test.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -812,21 +787,7 @@
       <workItem from="1582979337676" duration="27203000" />
       <workItem from="1583126522330" duration="1263000" />
       <workItem from="1583130134241" duration="18000" />
-      <workItem from="1583130211974" duration="28100000" />
-    </task>
-    <task id="LOCAL-00123" summary="水源地-用户增加过期时间，水源地问题增加状态">
-      <created>1568626673638</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1568626673638</updated>
-    </task>
-    <task id="LOCAL-00124" summary="水源地-数据库变为watersnest">
-      <created>1568709609981</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1568709609981</updated>
+      <workItem from="1583130211974" duration="32321000" />
     </task>
     <task id="LOCAL-00125" summary="水源地-解决督查清单外问题详情的路径问题">
       <created>1568786455904</created>
@@ -1157,7 +1118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583197887522</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="对部分代码规整">
+      <created>1583204014517</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1583204014517</updated>
+    </task>
+    <task id="LOCAL-00173" summary="对部分代码规整1">
+      <created>1583204174129</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1583204174129</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1210,8 +1185,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="super admin yu user info -3" />
-    <MESSAGE value="super admin yu bug info -6" />
     <MESSAGE value="super admin yu bug info -7" />
     <MESSAGE value="水源地评价分数-未测试" />
     <MESSAGE value="水源地评价分数-未测试1" />
@@ -1235,7 +1208,9 @@
     <MESSAGE value="开始联调服务1 - getway2" />
     <MESSAGE value="开始联调服务1 - getway3" />
     <MESSAGE value="集成分布式事物。 订单增加的时候  消减  商品的库存" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成分布式事物。 订单增加的时候  消减  商品的库存" />
+    <MESSAGE value="对部分代码规整" />
+    <MESSAGE value="对部分代码规整1" />
+    <option name="LAST_COMMIT_MESSAGE" value="对部分代码规整1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="194" y="39" key="#Project_Structure" timestamp="1582986976274">
@@ -1269,11 +1244,11 @@
     </state>
     <state x="377" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.741@0.23.1280.741" timestamp="1581493115173" />
     <state x="377" y="147" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.743@0.23.1280.743" timestamp="1583202358065" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1583197885350">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1583204173844">
       <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.741@0.23.1280.741" timestamp="1578993276809" />
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.742@0.23.1280.742" timestamp="1583197885350" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.742@0.23.1280.742" timestamp="1583204173844" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.743@0.23.1280.743" timestamp="1582982358949" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1280.744@0.23.1280.744" timestamp="1582985720376" />
     <state width="1218" height="310" key="GridCell.Tab.0.bottom" timestamp="1583197713933">
@@ -1336,11 +1311,11 @@
       <screen x="0" y="23" width="1280" height="741" />
     </state>
     <state x="141" y="33" key="SettingsEditor/0.23.1280.741@0.23.1280.741" timestamp="1581299056267" />
-    <state x="239" y="133" key="Vcs.Push.Dialog.v2" timestamp="1583197892762">
+    <state x="239" y="133" key="Vcs.Push.Dialog.v2" timestamp="1583204175867">
       <screen x="0" y="23" width="1280" height="742" />
     </state>
     <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.741@0.23.1280.741" timestamp="1578993280517" />
-    <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.742@0.23.1280.742" timestamp="1583197892762" />
+    <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.742@0.23.1280.742" timestamp="1583204175867" />
     <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.743@0.23.1280.743" timestamp="1582982370511" />
     <state x="239" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.744@0.23.1280.744" timestamp="1582985724234" />
     <state x="317" y="226" key="com.intellij.ide.util.TipDialog" timestamp="1578448019445">

@@ -20,7 +20,7 @@ swagger2.package: com.hdsx.appservice.product.service
 spring:
   application:
     name: app-service-product
-  # Seata
+  # Seata（废弃）
   cloud:
     alibaba:
       seata:
@@ -69,7 +69,8 @@ mybatis:
 
 debug: true
 
-
+# 分布式事物（多次测试，当前版本seata 和cloud eureka有点不太兼容）
+# 才用简单的boot版本的集成模式
 seata:
   enabled: true
   application-id: product-service

@@ -15,6 +15,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/swagger-resources")
 public class SwaggerHandler {
+
     @Autowired(required = false)
     private SecurityConfiguration securityConfiguration;
 
@@ -45,6 +46,5 @@ public class SwaggerHandler {
     public Mono<ResponseEntity> swaggerResources() {
         return Mono.just((new ResponseEntity<>(swaggerResources.get(), HttpStatus.OK)));
     }
-
 
 }

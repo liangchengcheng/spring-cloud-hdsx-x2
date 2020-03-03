@@ -45,7 +45,7 @@ public class OrderServiceImpl implements OrderService {
     private ProductService productService;
 
     @ApiOperation("插入订单的信息（插入和更新状态判断）")
-    // 微服务要用分布式事物
+    // 微服务要用分布式事物 - 这个单机事物不行
     // @Transactional(isolation = Isolation.DEFAULT, propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     @GlobalTransactional(name = "fsp-create-order",rollbackFor = Exception.class)
     @Override
@@ -118,7 +118,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    @ApiOperation("获取订单的详情- 权限简单版 - id")
+    @ApiOperation("获取订单的详情- 通过ID获取 - id")
     @ApiImplicitParams(
             {
                     @ApiImplicitParam(name = "id", value = "", required = true, dataType = "String", paramType = "query"),

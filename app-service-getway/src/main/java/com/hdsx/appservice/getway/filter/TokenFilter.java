@@ -35,7 +35,7 @@ public class TokenFilter implements GlobalFilter {
         return chain.filter(exchange.mutate().request(build).build());
 
         /**
-         * 自己判断一下token逻辑  ↓
+         * 自己判断一下token逻辑  ↓  token逻辑   ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
          */
 //
 //        // 响应对象

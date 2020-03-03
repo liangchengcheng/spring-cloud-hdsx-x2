@@ -40,6 +40,7 @@ public class ProductServiceImpl implements ProductService {
             if (productBean == null ) {
                 return XbinResult.build(FAIL, ResultEnum.PRODUCT_SAVE_FAIL.getMsg());
             }
+
             // 获取基本信息
             // 获取基本信息的ID
             String id = productBean.getId();
