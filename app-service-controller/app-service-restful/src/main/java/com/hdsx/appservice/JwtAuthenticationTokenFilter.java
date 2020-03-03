@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * 过滤器。可以校验token
+ */
 @Component
 //@WebFilter(urlPatterns = { "/api/v/*" }, filterName = "jwtAuthenticationTokenFilter")
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
@@ -44,7 +47,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 //                    String ts = (String) tokenServer;
 //                    if (token.equals(ts)) {
 //                        chain.doFilter(httpRequest, response);
-//                    }else {
+//                    } else {
 //                        logout(response);
 //                    }
 //                }
@@ -52,8 +55,6 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 //                serverError(response);
 //                e.printStackTrace();
 //            }
-//
-//
 //        }
         chain.doFilter(httpRequest, response);
     }

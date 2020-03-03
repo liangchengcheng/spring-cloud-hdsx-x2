@@ -14,6 +14,7 @@ feign:
     enabled: true
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+
 # swagger2
 swagger2.package: com.hdsx.appservice.restful
 
@@ -52,6 +53,7 @@ info: #定义各种额外的详情给服务端显示
     description: "@project.description@"
     version: "@project.version@"
     spring-boot-version: "@project.parent.version@"
+
 debug: true
 
 drinkwater:

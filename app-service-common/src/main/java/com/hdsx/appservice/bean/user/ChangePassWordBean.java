@@ -4,6 +4,11 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
+/**
+ * 梁铖城
+ * 2020年03月03日10:20:42
+ * 修改密码的对象
+ */
 @ApiModel
 public class ChangePassWordBean implements Serializable {
     @ApiModelProperty("用户名")

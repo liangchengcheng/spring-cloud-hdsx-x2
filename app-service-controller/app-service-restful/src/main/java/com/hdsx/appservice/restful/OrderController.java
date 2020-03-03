@@ -38,7 +38,7 @@ public class OrderController {
                 return orderService.addOrder(orderBean);
             }
         } catch (Exception e) {
-            logger.error("上传信息异常:{}", e.getMessage(), e);
+            logger.error("插入订单信息:{}", e.getMessage(), e);
         }
         return XbinResult.build(0 , ResultEnum.UPDATE_USER_ERROR.getMsg());
     }
@@ -50,7 +50,7 @@ public class OrderController {
         try {
             return orderService.getOrderById(id);
         } catch (Exception e) {
-            logger.error("获取用户信息异常:{}", e.getMessage(), e);
+            logger.error("获取订单信息详情:{}", e.getMessage(), e);
         }
         return XbinResult.build(0 , ResultEnum.ORDER_QUERY_FAIL.getMsg());
     }
@@ -62,7 +62,7 @@ public class OrderController {
         try {
             return orderService.getOrderList(orderQueryBean);
         } catch (Exception e) {
-            logger.error("获取用户信息异常:{}", e.getMessage(), e);
+            logger.error("获取订单信息列表:{}", e.getMessage(), e);
         }
         return XbinResult.build(0 , ResultEnum.ORDER_QUERY_FAIL.getMsg());
     }

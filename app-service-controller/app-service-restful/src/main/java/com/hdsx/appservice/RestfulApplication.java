@@ -13,6 +13,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * 梁铖城
+ * 2020年03月03日10:50:32
  * 整个APP对外暴露的接口
  */
 @SpringBootApplication
@@ -21,9 +23,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableHystrix
 @EnableCircuitBreaker
-
 public class RestfulApplication {
 
+    /**
+     * 跨域
+     */
     @Bean
     public FilterRegistrationBean addCrossDomainFilter() {
         FilterRegistrationBean registrationBean = new FilterRegistrationBean(new CrossDomainFilter());
@@ -33,8 +37,11 @@ public class RestfulApplication {
 
 	public static void main(String[] args) {
 		new SpringApplicationBuilder(RestfulApplication.class).web(true).run(args);
-
 	}
+
+    /**
+     * hystrix的仪表盘
+     */
     @Bean
     public ServletRegistrationBean getServlet() {
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();

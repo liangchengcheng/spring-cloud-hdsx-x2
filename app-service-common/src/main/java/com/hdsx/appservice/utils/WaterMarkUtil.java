@@ -11,6 +11,11 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
 
+/**
+ * 梁铖城
+ * 2020年03月03日10:29:27
+ * 图片添加水印 （废气）
+ */
 public class WaterMarkUtil {
 
     /**

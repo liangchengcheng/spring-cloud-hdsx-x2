@@ -5,8 +5,15 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
+/**
+ * 梁铖城
+ * 2020年03月03日10:28:53
+ * 日期转换工具类
+ */
 public class DateUtil {
+
     public static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
+
     public static SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
 
     public static String longToStr(String time) {
@@ -17,6 +24,7 @@ public class DateUtil {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault());
         return format.format(new Date());
     }
+
     public static String getTodayDateTim1() {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault());
         return format.format(new Date());

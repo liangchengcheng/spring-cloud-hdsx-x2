@@ -5,6 +5,11 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 梁铖城
+ * 2020年03月03日10:28:27
+ * 日期的简单的转换
+ */
 public class DateParseUtil {
 
     public static Date longToDate(long currentTime, String formatType) throws ParseException {
@@ -49,7 +54,5 @@ public class DateParseUtil {
 
         return null;
     }
-
-
 
 }

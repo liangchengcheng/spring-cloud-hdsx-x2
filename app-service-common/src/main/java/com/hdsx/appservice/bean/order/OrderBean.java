@@ -5,6 +5,8 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 /**
+ * 梁铖城
+ * 2020年03月03日10:20:17
  * 订单的对象
  */
 @ApiModel

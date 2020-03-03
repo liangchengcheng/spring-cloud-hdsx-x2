@@ -14,7 +14,7 @@
 <configuration debug="false">
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
     <!--<property name="LOG_HOME" value="/usr/project/watersys/log"/>-->
-    <property name="LOG_HOME" value="../logs/com"/>
+    <property name="LOG_HOME" value="../logs/common"/>
     <!-- <property name="LOG_HOME" value="e:/project/watersys/log"/> -->
     <!-- 日志最大的历史 30天 -->
     <property name="maxHistory" value="30"/>

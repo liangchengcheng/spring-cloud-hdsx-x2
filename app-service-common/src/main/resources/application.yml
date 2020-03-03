@@ -1,3 +1,4 @@
+# 这个文件没用，会被覆盖
 server:
   port: 8232
 
@@ -7,7 +8,6 @@ eureka:
       defaultZone: http://127.0.0.1:8210/eureka/
 
 spring:
-
   application:
     name: app-common-new
   datasource:

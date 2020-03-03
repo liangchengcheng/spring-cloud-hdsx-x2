@@ -5,12 +5,14 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:30000/eureka/
+
 # feign - hystrix
 feign:
   hystrix:
     enabled: true
 
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 10000
+
 # swagger2
 swagger2.package: com.hdsx.appservice.restful
 spring:
@@ -28,12 +30,14 @@ spring:
       max-file-size: 200MB
       max-request-size: 200MB
       enabled: true
+
 info: #定义各种额外的详情给服务端显示
   app:
     name: "@project.name@" #从pom.xml中获取
     description: "@project.description@"
     version: "@project.version@"
     spring-boot-version: "@project.parent.version@"
+
 debug: true
 
 drinkwater:
@@ -41,6 +45,7 @@ drinkwater:
   filePath: E:\nginx-1.9.5\webapp\appadmin\file\
   videoPath: E:\nginx-1.9.5\webapp\appadmin\video\
   vuePath: E:\nginx-1.9.5\webapp\
+
 ribbon:
   ReadTimeout: 180000
   ConnectTimeout: 120000

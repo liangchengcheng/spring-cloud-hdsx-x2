@@ -32,8 +32,8 @@ public class Swagger2 {
     }
     private ApiInfo ApiInfo() {
         return new ApiInfoBuilder()
-                .description("移动开发部 APP接口服务")
-                .title(title + "- 2019年11月25日")
+                .description("移动开发部 APP接口服务 - Controller")
+                .title(title + "- 2020年03月03日")
                 .version("1.5.1")
                 .build();
     }

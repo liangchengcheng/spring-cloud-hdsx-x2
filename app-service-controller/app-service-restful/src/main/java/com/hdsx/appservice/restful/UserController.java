@@ -55,7 +55,7 @@ public class UserController {
                 return XbinResult.build(0 , ResultEnum.UPDATE_USER_ERROR.getMsg());
             }
         } catch (Exception e) {
-            logger.error("上传信息异常:{}", e.getMessage(), e);
+            logger.error("插入用户USER信息失败:{}", e.getMessage(), e);
         }
         return XbinResult.build(0 , ResultEnum.UPDATE_USER_ERROR.getMsg());
     }

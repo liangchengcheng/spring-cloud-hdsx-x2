@@ -9,6 +9,7 @@ import java.util.Map;
 /**
  * 梁铖城
  * 2018年04月27日11:25:16
+ * 返回体 - 暂不用
  */
 public class ApiResult<T> implements Serializable {
     private static final long serialVersionUID = 1L;

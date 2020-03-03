@@ -47,7 +47,7 @@ public class ProductController {
         try {
             return productService.getProductById(id);
         } catch (Exception e) {
-            logger.error("获取用户信息异常:{}", e.getMessage(), e);
+            logger.error("获取商品信息详情:{}", e.getMessage(), e);
         }
         return XbinResult.build(0 , ResultEnum.PRODUCT_QUERY_FAIL.getMsg());
     }

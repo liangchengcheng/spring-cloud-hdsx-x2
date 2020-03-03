@@ -1,8 +1,9 @@
 package com.hdsx.appservice.bean;
 
 /**
- *
- * 返回的错误信息
+ * 梁铖城
+ * 2020年03月03日10:21:41
+ * 返回的错误信息  0（你也可以使用其他数字）都是错误和异常， 1是正常返回。
  */
 public enum ResultEnum {
     ERROR(0, "系统异常，请求错误"),
@@ -50,9 +51,6 @@ public enum ResultEnum {
     ERROR_1(0, "请求失败"),
     UER_ERROR(0,"用户失败次数过多，已被禁用，请联系管理员"),
     ERROR_CAM_NOT_UPLOAD(0, "暂时不能上传");
-
-
-
 
     private Integer code;
 

@@ -4,6 +4,11 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
+/**
+ * 梁铖城
+ * 2020年03月03日10:20:03
+ * 订单查询的体对象
+ */
 @ApiModel
 public class OrderQueryBean implements Serializable {
 

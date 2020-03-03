@@ -4,6 +4,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
+/**
+ * 用户查询对象
+ */
 @ApiModel
 public class UserQueryBean implements Serializable {
     @ApiModelProperty("用户名")

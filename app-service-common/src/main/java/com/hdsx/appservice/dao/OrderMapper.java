@@ -1,6 +1,5 @@
 package com.hdsx.appservice.dao;
 
-
 import com.hdsx.appservice.bean.order.OrderBean;
 import com.hdsx.appservice.bean.order.OrderQueryBean;
 import org.springframework.stereotype.Repository;
@@ -8,6 +7,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
+ * 梁铖城
+ * 2020年03月03日10:24:23
  * 订单 mapper
  */
 @Repository

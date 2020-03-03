@@ -11,15 +11,22 @@ import java.util.regex.Pattern;
 
 /**
  * 百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换的工具
- *
  */
 public class CoordinateTransformUtil {
     static double x_pi = 3.14159265358979324 * 3000.0 / 180.0;
-    // π
+    /**
+     *  π
+     */
     static double pi = 3.1415926535897932384626;
-    // 长半轴
+
+    /**
+     * 长半轴
+     */
     static double a = 6378245.0;
-    // 扁率
+
+    /**
+     * 扁率
+     */
     static double ee = 0.00669342162296594323;
 
     /**
@@ -115,6 +122,7 @@ public class CoordinateTransformUtil {
         if (out_of_china(lng, lat)) {
             return new double[]{lng, lat};
         }
+
         double dlat = transformlat(lng - 105.0, lat - 35.0);
         double dlng = transformlng(lng - 105.0, lat - 35.0);
         double radlat = lat / 180.0 * pi;
@@ -130,10 +138,6 @@ public class CoordinateTransformUtil {
 
     /**
      * 纬度转换
-     *
-     * @param lng
-     * @param lat
-     * @return
      */
     public static double transformlat(double lng, double lat) {
         double ret = -100.0 + 2.0 * lng + 3.0 * lat + 0.2 * lat * lat + 0.1 * lng * lat + 0.2 * Math.sqrt(Math.abs(lng));
@@ -145,10 +149,6 @@ public class CoordinateTransformUtil {
 
     /**
      * 经度转换
-     *
-     * @param lng
-     * @param lat
-     * @return
      */
     public static double transformlng(double lng, double lat) {
         double ret = 300.0 + lng + 2.0 * lat + 0.1 * lng * lng + 0.1 * lng * lat + 0.1 * Math.sqrt(Math.abs(lng));
@@ -160,10 +160,6 @@ public class CoordinateTransformUtil {
 
     /**
      * 判断是否在国内，不在国内不做偏移
-     *
-     * @param lng
-     * @param lat
-     * @return
      */
     public static boolean out_of_china(double lng, double lat) {
         if (lng < 72.004 || lng > 137.8347) {

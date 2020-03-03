@@ -4,7 +4,11 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
+/**
+ * 梁铖城
+ * 2020年03月03日10:50:14
+ * 跨域问题
+ */
 public class CrossDomainFilter implements Filter {
 
     public CrossDomainFilter() {
@@ -21,8 +25,6 @@ public class CrossDomainFilter implements Filter {
 
         chain.doFilter(request, response);
     }
-
-
 
     public void destroy() {
     }

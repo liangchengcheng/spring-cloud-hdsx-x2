@@ -5,6 +5,11 @@ import com.hdsx.appservice.bean.user.UserBean;
 import com.hdsx.appservice.bean.user.UserQueryBean;
 import java.util.List;
 
+/**
+ * 梁铖城
+ * 2020年03月03日10:25:12
+ * 用户信息管理mapper
+ */
 public interface UserMapper {
     /**
      * 新增用户

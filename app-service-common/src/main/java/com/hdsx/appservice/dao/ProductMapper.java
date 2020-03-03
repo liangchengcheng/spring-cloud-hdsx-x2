@@ -4,6 +4,11 @@ import com.hdsx.appservice.bean.product.ProductBean;
 import com.hdsx.appservice.bean.product.ProductNumBean;
 import org.springframework.stereotype.Repository;
 
+/**
+ * 梁铖城
+ * 2020年03月03日10:24:37
+ * 商品信息管理 - mapper
+ */
 @Repository
 public interface ProductMapper {
     /**
