@@ -6,35 +6,7 @@
 
 * 整体的功能:(用户系统)（订单服务 --> 商品服务）
 
-
-
-
-下面，我们会提供目前用到的中间件的管理平台。
-
-> 考虑到大家可以看到更全的功能，所以一般提供 admin 账号
-
-
-**Grafana UI**
-
-* 地址：http://grafana.shop.iocoder.com:18099
-* 演示账号：yudaoyuanma / yudaoyuanma
-* 用于展示 Prometheus 收集的 Metrics 指标数据。
-
-**Dubbo Admin**
-
-* 地址：http://dubbo-admin.shop.iocoder.com:18099
-* 管理员账号：无需登陆
-
-**RocketMQ Console**
-
-* 地址：http://rocketmq-console.shop.iocoder.com:18099
-* 管理员账号：admin / RPsa2GHjTNs8pxEU
-
-**Sentinel Console**
-
-* 地址：http://sentinel.shop.iocoder.com:18099
-* 账号：sentinel / sentinel
-
+* 整体的功能如下图：![功能图](https://github.com/liangchengcheng/spring-dubbo-hdsx-x2/blob/master/iamges/image_jiagou.png)
 
 # 技术
 
