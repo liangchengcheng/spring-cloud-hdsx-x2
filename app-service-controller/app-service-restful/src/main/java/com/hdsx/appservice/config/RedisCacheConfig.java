@@ -1,4 +1,4 @@
-package com.hdsx.appservice;
+package com.hdsx.appservice.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

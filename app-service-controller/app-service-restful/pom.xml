@@ -115,6 +115,11 @@
         </dependency>
         <dependency>
             <groupId>com.hdsx.appservice</groupId>
+            <artifactId>app-service-mongo-api</artifactId>
+            <version>2.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hdsx.appservice</groupId>
             <artifactId>app-service-common</artifactId>
             <version>2.0-SNAPSHOT</version>
         </dependency>
