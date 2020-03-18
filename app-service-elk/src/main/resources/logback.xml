@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+
+    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <!-- logstash 输入地址  与logstash.conf 配置文件的input对应-->
+        <!-- 我这里的logstash相对地址是192.168.10.128 端口是logstash.conf input配置的端口 -->
+        <destination>127.0.0.1:4560</destination>
+        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder" >
+            <!--定义kibana日志的字段-->
+            <customFields>{"appname":"elk-eureka"}</customFields>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="LOGSTASH" />
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+</configuration>

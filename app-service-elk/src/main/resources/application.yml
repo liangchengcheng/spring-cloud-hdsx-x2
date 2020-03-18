@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: elk-server #给你的微服务应用起一名字
+
+server:
+  port: 30019

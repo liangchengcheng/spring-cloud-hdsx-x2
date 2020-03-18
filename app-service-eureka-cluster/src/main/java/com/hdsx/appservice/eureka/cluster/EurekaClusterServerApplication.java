@@ -1,4 +1,4 @@
-package com.hdsx.appservice;
+package com.hdsx.appservice.eureka.cluster;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -17,13 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaServer
 @SpringBootApplication
 @RestController
-public class EurekaServerApplication {
+public class EurekaClusterServerApplication {
 
-	public static final Logger logger = LoggerFactory.getLogger(EurekaServerApplication.class);
+	public static final Logger logger = LoggerFactory.getLogger(EurekaClusterServerApplication.class);
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurekaServerApplication.class, args);
+		SpringApplication.run(EurekaClusterServerApplication.class, args);
 		logger.error("lccccccccccccccc");
 		logger.info("lccccccccccccccc");
 		logger.debug("lccccccccccccccc");

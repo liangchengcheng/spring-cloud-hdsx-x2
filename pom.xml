@@ -15,6 +15,8 @@
         <module>app-service-provider</module>
         <module>app-service-getway</module>
         <module>app-service-monitor</module>
+        <module>app-service-eureka-cluster</module>
+        <module>app-service-elk</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

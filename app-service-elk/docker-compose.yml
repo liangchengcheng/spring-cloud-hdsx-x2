@@ -1,0 +1,38 @@
+version: '2'
+services:
+  elasticsearch:
+    image: elasticsearch:6.6.1
+    environment:
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - $PWD/elk/elasticsearch/data:/usr/share/elasticsearch/data
+      - $PWD/elk/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+    hostname: elasticsearch
+    restart: always
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+  kibana:
+    image: kibana:6.6.1
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200 #elasticsearch查询接口地址
+    hostname: kibana
+    depends_on:
+      - elasticsearch  #后于elasticsearch启动
+    restart: always
+    ports:
+      - "5601:5601"
+  logstash:
+    image: docker.elastic.co/logstash/logstash:6.3.1
+    command: logstash -f /etc/logstash/conf.d/logstash.conf  #logstash 启动时使用的配置文件
+    volumes:
+      - $PWD/elk/logstash/conf.d:/etc/logstash/conf.d  #logstash 配文件位置
+      - $PWD/elk/logst:/tmp
+    hostname: logstash
+    restart: always
+    depends_on:
+      - elasticsearch  #后于elasticsearch启动
+    ports:
+      - "7001-7005:7001-7005"
+      - "4560:4560"
+      - "9600:9600"

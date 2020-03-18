@@ -1,0 +1,23 @@
+version: '3'
+services:
+  eureka1:
+    image: eureka-cluster:v1
+    command: java -Djava.security.egd=file:/dev/./urandom -jar /app/app-service-erueka-cluster.jar --eureka.serviceUrl=http://eureka2:8501/eureka/,http://eureka3:8501/eureka/ --hostname=eureka1
+    container_name: eureka1
+    hostname: eureka1
+    ports:
+      - "8501:8501"
+  eureka2:
+    image: eureka-cluster:v1
+    command: java -Djava.security.egd=file:/dev/./urandom -jar /app/app-service-erueka-cluster.jar --eureka.serviceUrl=http://eureka1:8501/eureka/,http://eureka3:8501/eureka/ --hostname=eureka2
+    container_name: eureka2
+    hostname: eureka2
+    ports:
+      - "8601:8501"
+  eureka3:
+    image: eureka-cluster:v1
+    command: java -Djava.security.egd=file:/dev/./urandom -jar /app/app-service-erueka-cluster.jar --eureka.serviceUrl=http://eureka1:8501/eureka/,http://eureka2:8501/eureka/ --hostname=eureka3
+    container_name: eureka3
+    hostname: eureka3
+    ports:
+      - "8701:8501"

@@ -1,0 +1,6 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+# head插件设置
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+#设置可以访问的ip 这里全部设置通过
