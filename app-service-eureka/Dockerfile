@@ -1,5 +1,6 @@
-# Name:     xbin-store-cloud-eureka
+# Name:     eureka
 # Time:     2017-05-07
+# 这是一般的打包方式，
 
 #FROM java:8-jre-alpine
 FROM java:alpine
