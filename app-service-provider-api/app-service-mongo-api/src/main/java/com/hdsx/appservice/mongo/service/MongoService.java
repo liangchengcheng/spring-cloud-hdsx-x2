@@ -54,9 +54,21 @@ public interface MongoService {
     XbinResult deleteBookById(@RequestParam("id") String id);
 
     /**
-     * 编辑订单信息
+     * like查询
      */
     @GetMapping("/findByLikes")
     XbinResult findByLikes(@RequestParam("search") String search);
+
+    /**
+     * 编辑订单信息
+     */
+    @GetMapping("/findBookByPageNum")
+    XbinResult findBookByPageNum(@RequestParam("pageNum") int pageNum);
+
+    /**
+     * 连接查询
+     */
+    @GetMapping("/findBookInfo")
+    XbinResult findBookInfo();
 
 }

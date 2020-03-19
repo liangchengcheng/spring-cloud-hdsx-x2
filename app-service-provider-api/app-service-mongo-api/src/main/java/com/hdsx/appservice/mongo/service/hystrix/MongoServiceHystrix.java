@@ -45,5 +45,15 @@ public class MongoServiceHystrix implements MongoService {
     public XbinResult findByLikes(String search) {
         return XbinResult.build(FAIL, ResultEnum.ORDER_QUERY_FAIL.getMsg());
     }
+
+    @Override
+    public XbinResult findBookByPageNum(int pageNum) {
+        return XbinResult.build(FAIL, ResultEnum.ORDER_QUERY_FAIL.getMsg());
+    }
+
+    @Override
+    public XbinResult findBookInfo() {
+        return XbinResult.build(FAIL, ResultEnum.ORDER_QUERY_FAIL.getMsg());
+    }
 }
 

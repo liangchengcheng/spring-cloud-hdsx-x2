@@ -21,7 +21,6 @@ public class EurekaServerApplication {
 
 	public static final Logger logger = LoggerFactory.getLogger(EurekaServerApplication.class);
 
-
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaServerApplication.class, args);
 		logger.error("lccccccccccccccc");
