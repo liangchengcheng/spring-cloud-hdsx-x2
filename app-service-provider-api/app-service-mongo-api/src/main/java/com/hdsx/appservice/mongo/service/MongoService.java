@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 2019年11月22日14:40:31
  * 订单管理
  */
-@FeignClient(value = "app-service-mongo", path = "/book", fallback = MongoServiceHystrix.class)
+@FeignClient(value = "app-service-mongo", path = "/mongo", fallback = MongoServiceHystrix.class)
 public interface MongoService {
 
     /**

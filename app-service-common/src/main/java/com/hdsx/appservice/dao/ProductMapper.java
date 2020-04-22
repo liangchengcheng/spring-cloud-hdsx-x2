@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 /**
  * 梁铖城
  * 2020年03月03日10:24:37
- * 商品信息管理 - mapper
+ * 商品信息管理 - mapper - 放在对应的微服务的包下最好
  */
 @Repository
 public interface ProductMapper {

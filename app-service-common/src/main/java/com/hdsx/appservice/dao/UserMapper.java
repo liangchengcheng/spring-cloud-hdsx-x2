@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 梁铖城
  * 2020年03月03日10:25:12
- * 用户信息管理mapper
+ * 用户信息管理mapper - 放在对应的微服务的包下最好
  */
 public interface UserMapper {
     /**

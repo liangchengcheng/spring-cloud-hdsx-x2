@@ -1,6 +1,5 @@
 # Name:    集群
 
-
 FROM java:8
 
 RUN mkdir /app

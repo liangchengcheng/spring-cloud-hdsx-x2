@@ -38,7 +38,6 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
         };
     }
 
-
     /**
      * RedisTemplate配置
      */

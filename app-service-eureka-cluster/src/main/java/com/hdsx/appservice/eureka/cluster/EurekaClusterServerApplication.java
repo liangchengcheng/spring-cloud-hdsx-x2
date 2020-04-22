@@ -20,20 +20,19 @@ public class EurekaClusterServerApplication {
 
 	public static final Logger logger = LoggerFactory.getLogger(EurekaClusterServerApplication.class);
 
-
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaClusterServerApplication.class, args);
-		logger.error("lccccccccccccccc");
-		logger.info("lccccccccccccccc");
-		logger.debug("lccccccccccccccc");
-		logger.error("lccccccccccccccc");
-		logger.error("lccccccccccccccc");
-		logger.debug("lccccccccccccccc");
-		logger.error("lccccccccccccccc");
-		logger.debug("lccccccccccccccc");
-		logger.debug("lccccccccccccccc");
-		logger.debug("lccccccccccccccc");
-		logger.error("lccccccccccccccc");
+		logger.error("lcccccccccccccc - logger");
+		logger.info("lccccccccccccccc - logger");
+		logger.debug("lccccccccccccccc- logger");
+		logger.error("lccccccccccccccc- logger");
+		logger.error("lccccccccccccccc- logger");
+		logger.debug("lccccccccccccccc- logger");
+		logger.error("lccccccccccccccc- logger");
+		logger.debug("lccccccccccccccc- logger");
+		logger.debug("lccccccccccccccc- logger");
+		logger.debug("lccccccccccccccc- logger");
+		logger.error("lccccccccccccccc- logger");
 	}
 
 	@GetMapping("/ok")

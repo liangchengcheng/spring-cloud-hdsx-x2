@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 梁铖城
  * 2020年03月03日10:24:23
- * 订单 mapper
+ * 订单 mapper - 放在对应的微服务的包下最好
  */
 @Repository
 public interface OrderMapper {

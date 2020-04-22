@@ -53,7 +53,7 @@ public class XbinResult {
     }
 
     public Boolean isOK() {
-        return this.status == 200;
+        return this.status == 1;
     }
 
     public Integer getStatus() {

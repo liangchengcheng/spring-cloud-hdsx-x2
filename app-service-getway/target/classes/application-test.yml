@@ -39,6 +39,13 @@ spring:
             - StripPrefix=1
             - SwaggerHeaderFilter
           uri: lb://app-service-order
+        - id: app-service-mongo
+          predicates:
+            - Path=/mongo/**
+          filters:
+            - StripPrefix=1
+            - SwaggerHeaderFilter
+          uri: lb://app-service-mongo
 
 
 eureka:

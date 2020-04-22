@@ -1,9 +1,5 @@
 package com.hdsx.appservice.utils;
 
-/**
- * Created by yangjiahui on 2017/8/23.
- */
-
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.regex.Matcher;
