@@ -19,5 +19,6 @@
         <module>app-service-order-api</module>
         <module>app-service-user-api</module>
         <module>app-service-mongo-api</module>
+        <module>app-service-alibaba-api</module>
     </modules>
 </project>
