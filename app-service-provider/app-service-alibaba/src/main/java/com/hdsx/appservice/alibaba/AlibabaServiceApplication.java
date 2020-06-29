@@ -9,13 +9,12 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+@SpringBootApplication
+// @EnableDiscoveryClient(autoRegister = false)
 @EnableDiscoveryClient
-@ServletComponentScan
+@EnableFeignClients
 @MapperScan("com.hdsx.appservice.dao")
 @EnableSwagger2
-@SpringBootApplication
-@EnableFeignClients
-@EnableEurekaClient
 public class AlibabaServiceApplication {
 
 	public static void main(String[] args) {
