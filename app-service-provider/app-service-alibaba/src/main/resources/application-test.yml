@@ -1,0 +1,35 @@
+server:
+  port: 30021
+
+# swagger2
+swagger2.package: com.hdsx.appservice.alibaba.service
+
+# redis mysql druid nacos
+spring:
+  application:
+    name: app-service-alibaba
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/hdsx?charSet=utf-8
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+# mybatis
+mybatis:
+  mapperLocations: classpath:/mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+# management
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+  endpoint:
+    health:
+      show-details: always
+debug: true
