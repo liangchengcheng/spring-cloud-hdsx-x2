@@ -17,5 +17,6 @@
         <module>app-service-user</module>
         <module>app-service-order</module>
         <module>app-service-mongo</module>
+        <module>app-service-alibaba</module>
     </modules>
 </project>
