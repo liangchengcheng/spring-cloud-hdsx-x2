@@ -31,7 +31,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.35</version>
+            <version>1.2.83</version>
         </dependency>
 
         <!-- POI是Apache软件基金会的开放源码函式库,POI提供API给Java程式对Microsoft Office格式档案读和写的功能。 结构: HSSF - 提供读写Microsoft Excel-->
